@@ -1,8 +1,11 @@
 <template>
     <div class="banner container">
-        <h1>Banner</h1>
-        <!-- <img src="@/assets/logo.svg" class="logo-img" alt="logo">
-        <img src="@/assets/author.png" class="author-img" alt="author"> -->
+        <div class="logo-img">
+            <img src="@/assets/logo.svg" alt="logo">
+        </div>
+        <div class="author-img">
+            <img src="@/assets/author.png" alt="author">
+        </div>
     </div>
 </template>
 
@@ -25,21 +28,34 @@ export default {
     height: 100vh;
 }
 
-// .banner {
-//     display: flex;
-//     justify-content: right;
-//     width: 100vw;
-//     position: relative;
+.banner {
+    width: 100vw;
+    position: relative;
 
-//     .logo-img {
-//         width: 600px;
-//         position: absolute;
-//         top: 200px;
-//         left: 0;
-//     }
+    .logo-img {
+        max-width: 500px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
 
-//     .author-img {
-//         width: 80%;
-//     }
-// }
+        img {
+            width: 100%;
+        }
+    }
+
+    .author-img {
+        width: 900px;
+        position: absolute;
+        right: 0;
+        bottom: -400px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
 </style>
