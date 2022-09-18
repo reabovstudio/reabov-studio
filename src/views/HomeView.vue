@@ -4,7 +4,8 @@
             <navigation-bar></navigation-bar>
         </el-header>
         <el-main>
-           <carousel-component></carousel-component>
+            <banner-component></banner-component>
+            <about-component></about-component>
         </el-main>
         <!-- <el-footer></el-footer> -->
     </el-container>
@@ -12,13 +13,15 @@
 
 <script>
 import NavigationBar from '../components/header/NavigationBar.vue';
-import CarouselComponent from '../components/main/CarouselComponent.vue';
+import BannerComponent from '../components/main/BannerComponent.vue';
+import AboutComponent from '../components/main/AboutComponent.vue';
 
 export default {
     name: 'HomeView',
     components: {
         NavigationBar,
-        CarouselComponent
+        BannerComponent,
+        AboutComponent,
     }
 }
 </script>
@@ -30,5 +33,9 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+.el-main {
+    overflow: unset;
 }
 </style>

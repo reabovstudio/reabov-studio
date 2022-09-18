@@ -3,20 +3,14 @@ body {
     margin: 0;
 }
 
-.el-container {
+.shadow {
+    box-shadow: 0 0px 20px 0px #31074f;
+}
+
+.section-vh {
     height: 100vh;
-
-    .el-main {
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-    }
+    min-height: 700px;
 }
-
-.track-item {
-    width: 100%;
-}
-
 
 /** ------ RESPONSIVE BREACK POINTS ----- **/
 /** ------ extra small -----**/

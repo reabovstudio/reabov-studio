@@ -1,5 +1,5 @@
 <template>
-    <div class="banner container">
+    <div class="banner container section-vh">
         <div class="logo-img">
             <img src="@/assets/logo.svg" alt="logo">
         </div>
@@ -22,25 +22,15 @@ export default {
 
 <style lang="scss" scoped>
 .banner {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.banner {
-    width: 100vw;
-    position: relative;
+    flex-direction: column;
 
     .logo-img {
-        max-width: 500px;
+        width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
 
         img {
             width: 100%;
@@ -48,13 +38,27 @@ export default {
     }
 
     .author-img {
-        width: 900px;
-        position: absolute;
-        right: 0;
-        bottom: -400px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
 
         img {
             width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner {
+        flex-direction: row;    
+
+        .logo-img {
+            width: 50%;
+        }
+
+        .author-img {
+            width: 50%;
         }
     }
 }
