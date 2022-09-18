@@ -1,6 +1,8 @@
 <template>
     <div class="about container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cG3-8UZCN28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video shadow">
+            <video src="@/assets/reabov-from-md.mp4" controls></video>
+        </div>
     </div>
 </template>
 
@@ -15,6 +17,15 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+.video {
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+
+    video {
+        width: 100%;
+    }
 }
 </style>
