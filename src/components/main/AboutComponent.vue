@@ -21,7 +21,7 @@ export default {
 
 .video {
     width: 100%;
-    padding: 30px;
+    padding: 1.875rem;
     border-radius: 20px;
 
     video {

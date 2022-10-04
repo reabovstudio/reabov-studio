@@ -126,7 +126,7 @@ export default {
 .navigation-bar-mobile {
     margin-left: -20px;
     margin-right: -20px;
-    z-index: 2;
+    z-index: 999;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     min-height: 41px;
