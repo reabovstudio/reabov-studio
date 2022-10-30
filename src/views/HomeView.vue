@@ -8,6 +8,7 @@
       <about-component></about-component>
       <animation-component></animation-component>
       <portfolio-component></portfolio-component>
+      <stock-component></stock-component>
     </el-main>
     <el-footer height="auto">
       <footer-component></footer-component>
@@ -16,12 +17,13 @@
 </template>
 
 <script>
-import NavigationBar from '../components/header/NavigationBar.vue';
-import BannerComponent from '../components/main/BannerComponent.vue';
-import AboutComponent from '../components/main/AboutComponent.vue';
+import NavigationBar from '@/components/header/NavigationBar.vue';
+import BannerComponent from '@/components/main/BannerComponent.vue';
+import AboutComponent from '@/components/main/AboutComponent.vue';
 import AnimationComponent from '@/components/main/AnimationComponent';
-import PortfolioComponent from '../components/main/PortfolioComponent.vue';
-import FooterComponent from '../components/footer/FooterComponent.vue';
+import PortfolioComponent from '@/components/main/PortfolioComponent.vue';
+import StockComponent from '@/components/main/stock/StockComponent';
+import FooterComponent from '@/components/footer/FooterComponent.vue';
 
 export default {
   name: 'HomeView',
@@ -31,6 +33,7 @@ export default {
     AboutComponent,
     AnimationComponent,
     PortfolioComponent,
+    StockComponent,
     FooterComponent,
   }
 }
@@ -43,6 +46,10 @@ export default {
   left: 0;
   right: 0;
   z-index: 999;
+}
+
+.el-header {
+  padding: 0;
 }
 
 .el-main {
