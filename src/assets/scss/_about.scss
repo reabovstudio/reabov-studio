@@ -1,0 +1,143 @@
+.about {
+  .about-banner {
+    display: flex;
+    flex-direction: column;
+
+
+    @include for-md {
+      flex-direction: row;
+      align-items: flex-end;
+    }
+
+    h1 {
+      font-size: 54px;
+      margin: 70px 0;
+      color: #fff;
+      text-align: center;
+
+      @include for-md {
+        position: absolute;
+        z-index: -1;
+      }
+
+      @include for-lg {
+        font-size: 105px;
+      }
+
+      @include for-xl {
+        font-size: 140px;
+      }
+    }
+
+    .about-img {
+      display: flex;
+      max-width: 500px;
+      margin-left: auto;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    @include for-md {
+      flex-direction: row;
+      flex-wrap: wrap;
+      border-radius: 50px;
+    }
+
+    .about-description {
+      padding: 20px;
+
+      @include for-md {
+        width: 100%;
+        padding: 50px 50px 0;
+      }
+
+      @include for-xl {
+        width: calc(35% - 50px);
+        padding: 50px 0 50px 50px;
+      }
+
+      p {
+        font-size: 18px;
+        color: #fff;
+        margin: 0;
+      }
+    }
+
+    .about-me {
+      @include for-md {
+        display: flex;
+        padding: 50px;
+      }
+
+      @include for-xl {
+        width: calc(65% - 50px);
+        padding: 50px 50px 50px 0;
+        margin-left: auto;
+      }
+
+      .about-vertical-text {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        @include for-md {
+          padding: 0;
+        }
+
+        .rotated-items {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          @include for-md {
+            flex-direction: row;
+          }
+
+          span {
+            font-size: 44px;
+            color: #fff;
+            margin: 0;
+            line-height: 0.8;
+            width: 100%;
+            text-align: center;
+
+            @include for-md {
+              font-size: 50px;
+              writing-mode: vertical-rl;
+              transform: rotate(180deg);
+              white-space: nowrap;
+              display: inline-block;
+              overflow: visible;
+            }
+
+            @include for-lg {
+              font-size: 72px;
+            }
+
+            @include for-xl {
+              font-size: 59px;
+            }
+          }
+        }
+      }
+
+      .about-video {
+        display: flex;
+
+        video {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

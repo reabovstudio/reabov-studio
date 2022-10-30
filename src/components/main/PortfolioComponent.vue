@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio container-stretch">
+    <div class="portfolio">
         <slider v-bind="options">
             <div v-for="image in images" :key="image.id">
                 <img :src="getImgUrl(image.name)" :alt="image.name">

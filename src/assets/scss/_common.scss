@@ -16,11 +16,6 @@ body {
     min-height: 700px;
 }
 
-.container-stretch {
-    margin-left: -20px;
-    margin-right: -20px;
-}
-
 /** ------ RESPONSIVE BREACK POINTS ----- **/
 /** ------ extra small -----**/
 @media only screen and (min-width: 576px) {
@@ -28,21 +23,12 @@ body {
         font-size: 13px;
     }
 
-    .container {
-        max-width: 540px;
-        margin: auto;
-    }
 }
 
 /** ------ medium -----**/
 @media only screen and (min-width: 768px) {
     html {
         font-size: 14px;
-    }
-
-    .container {
-        max-width: 720px;
-        margin: auto;
     }
 }
 
@@ -51,11 +37,6 @@ body {
     html {
         font-size: 15px;
     }
-
-    .container {
-        max-width: 960px;
-        margin: auto;
-    }
 }
 
 /** ------ extra large -----**/
@@ -63,9 +44,32 @@ body {
     html {
         font-size: 16px;
     }
-    
-    .container {
+}
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include for-ssm {
+        max-width: 400px;
+    }
+
+    @include for-sm {
+        max-width: 540px;
+    }
+
+    @include for-md {
+        max-width: 720px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @include for-lg {
+        max-width: 960px;
+    }
+
+    @include for-xl {
         max-width: 1140px;
-        margin: auto;
     }
 }
