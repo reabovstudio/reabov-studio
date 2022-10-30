@@ -1,1 +1,44 @@
+/** ------ COLOR VARIABLES ----- **/
 $color-primary: #5a23d8;
+
+/** ------ RESPONSIVE BREAK POINTS ----- **/
+/** ------ Small small screen ------ **/
+@mixin for-ssm {
+  @media screen and (min-width: 420px) {
+    @content;
+  }
+}
+
+@mixin for-sm {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+/** ------ Medium screen ------ **/
+@mixin for-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+/** ------ Large screen ------ **/
+@mixin for-lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+/** ------ Extra Large screen ------ **/
+@mixin for-xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+/** ------ Extra extra Large screen ------ **/
+@mixin for-xxl {
+  @media screen and (min-width: 1400px) {
+    @content;
+  }
+}

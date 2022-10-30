@@ -9,6 +9,16 @@ Vue.config.productionTip = false
 
 Vue.use(elementUi, locale)
 
+const filter = function (text, length, clamp) {
+  clamp = clamp || '...';
+  let node = document.createElement('div');
+  node.innerHTML = text;
+  let content = node.textContent;
+  return content.length > length ? content.slice(0, length) + clamp : content;
+};
+
+Vue.filter('truncate', filter);
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
