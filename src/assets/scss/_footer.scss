@@ -4,17 +4,44 @@
 
     .footer-content {
         padding: 50px 0;
-        min-height: 400px;
         display: flex;
+        flex-direction: column;
         align-items: center;
+
+        @include for-md {
+            padding: 100px 0;
+        }
     }
 
     .logo {
-        max-width: 400px;
-        margin: auto;
+        max-width: 500px;
+        margin: 50px auto;
 
         img {
             width: 100%;
+        }
+    }
+
+    .footer-menu {
+        .navigation-bar-menu {
+            display: flex;
+            flex-direction: column;
+            border: none;
+
+            @include for-md {
+                flex-direction: row;
+            }
+
+            .el-menu-item {
+                color: #fff;
+                font-size: 16px;
+                text-align: center;
+
+                &:focus,
+                &:hover {
+                    background-color: transparent !important;
+                }
+            }
         }
     }
 }
@@ -22,10 +49,10 @@
 .copyright {
     padding: 50px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     span {
         color: #fff;
-        font-size: 1.875rem;
+        font-size: 16px;
     }
 }

@@ -1,10 +1,6 @@
 .navigation-bar {
   background-color: $color-primary;
 
-  @include for-md {
-    border-bottom: 1px solid #fff;
-  }
-
   .navigation-bar-menu {
     display: flex;
     justify-content: space-between;

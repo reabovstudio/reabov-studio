@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation-bar">
+  <div class="navigation-bar shadow">
     <div class="container">
       <!-- descktop -->
       <el-menu v-if="!isMobile"
