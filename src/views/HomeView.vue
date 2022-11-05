@@ -5,12 +5,12 @@
     </el-header>
     <el-main>
       <banner-component></banner-component>
-      <about-component></about-component>
+      <about-component id="AboutRef"></about-component>
       <animation-component></animation-component>
-      <portfolio-component></portfolio-component>
-      <stock-component></stock-component>
-      <social-media-component></social-media-component>
-      <contact-component></contact-component>
+      <portfolio-component id="PortfolioRef"></portfolio-component>
+      <stock-component id="StockRef"></stock-component>
+      <social-media-component id="SocialRef"></social-media-component>
+      <contact-component id="ContactRef"></contact-component>
     </el-main>
     <el-footer height="auto">
       <footer-component></footer-component>
