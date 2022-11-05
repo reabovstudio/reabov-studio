@@ -4,13 +4,11 @@ import './assets/scss/main.scss'
 import elementUi from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en'
-import FormWizard from "vue-form-wizard";
-import "vue-form-wizard/dist/vue-form-wizard.min.css";
+import store from '@/store';
 
 Vue.config.productionTip = false
 
 Vue.use(elementUi, locale)
-Vue.use(FormWizard);
 
 const filter = function (text, length, clamp) {
   clamp = clamp || '...';
@@ -23,5 +21,6 @@ const filter = function (text, length, clamp) {
 Vue.filter('truncate', filter);
 
 new Vue({
+  store,
   render: h => h(App),
 }).$mount('#app')

@@ -1,21 +1,21 @@
 <template>
   <div class="navigation-bar">
-   <div class="shadow">
-     <div class="container">
-       <!-- descktop -->
-       <el-menu v-if="!isMobile"
-                :default-active="activeIndex"
-                class="navigation-bar-menu"
-                @select="handleSelect"
-                background-color="transparent">
-         <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
-         <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
-         <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
-         <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
-         <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
-       </el-menu>
-     </div>
-   </div>
+    <div class="shadow">
+      <div class="container" v-if="!isMobile">
+        <translate-component></translate-component>
+        <!-- descktop -->
+        <el-menu :default-active="activeIndex"
+                 class="navigation-bar-menu"
+                 @select="handleSelect"
+                 background-color="transparent">
+          <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
+          <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
+          <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
+          <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
+          <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
+        </el-menu>
+      </div>
+    </div>
 
     <!-- mobile -->
     <div v-if="isMobile">
@@ -35,6 +35,7 @@
           <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
+          <translate-component></translate-component>
         </el-menu>
       </div>
     </div>
@@ -42,8 +43,13 @@
 </template>
 
 <script>
+import TranslateComponent from "@/components/main/TranslateComponent";
+
 export default {
   name: 'NavigationBar',
+  components: {
+    TranslateComponent
+  },
   data() {
     return {
       activeIndex: '1',
@@ -54,6 +60,9 @@ export default {
   computed: {
     isMobile() {
       return this.windowWidth < 768;
+    },
+    language() {
+      return this.$store.getters['getLanguage'];
     }
   },
   mounted() {

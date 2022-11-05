@@ -85,49 +85,10 @@
         margin-left: auto;
       }
 
-      .about-vertical-text {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-
-        @include for-md {
-          padding: 0;
-        }
-
-        .rotated-items {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-
-          @include for-md {
-            flex-direction: row;
-          }
-
-          span {
-            font-size: 44px;
-            color: #fff;
-            margin: 0;
-            line-height: 0.8;
-            width: 100%;
-            text-align: center;
-
-            @include for-md {
-              font-size: 50px;
-              writing-mode: vertical-rl;
-              transform: rotate(180deg);
-              white-space: nowrap;
-              display: inline-block;
-              overflow: visible;
-            }
-
-            @include for-lg {
-              font-size: 72px;
-            }
-
-            @include for-xl {
-              font-size: 59px;
-            }
-          }
+      .lottie {
+        & > div {
+          width: auto!important;
+          height: auto!important;
         }
       }
 

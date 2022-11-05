@@ -21,8 +21,8 @@
         </p>
       </div>
       <div class="about-me">
-        <div>
-          <lottie :options="defaultOptions" width="auto" height="auto"/>
+        <div class="lottie">
+          <lottie :options="defaultOptions"/>
         </div>
         <div class="about-video">
           <video src="@/assets/reabov-from-md.mp4" controls></video>
@@ -43,7 +43,7 @@ export default {
   },
   data() {
     return {
-      defaultOptions: { animationData: about, loop: true }
+      defaultOptions: {animationData: about, loop: true}
     }
   }
 }
