@@ -1,11 +1,23 @@
 <template>
-  <div class="animation">
-    <h1>GRAPHIC DESIGN</h1>
+  <div class="container animation">
+    <lottie :options="defaultOptions"/>
   </div>
 </template>
 
 <script>
+import Lottie from "vue-lottie";
+import services from "@/assets/lottie/services.json";
+
+
 export default {
-  name: 'AnimationComponent'
+  name: 'AnimationComponent',
+  components: {
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: {animationData: services, loop: true},
+    }
+  }
 }
 </script>

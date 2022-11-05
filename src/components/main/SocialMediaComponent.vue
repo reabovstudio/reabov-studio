@@ -2,7 +2,7 @@
   <div class="container">
     <div class="social-media">
       <div class="social-media-heading">
-        <h1>Follow me on</h1>
+        <lottie :options="defaultOptions"/>
       </div>
       <div class="social-media-items">
         <div class="social-media-item">
@@ -27,7 +27,18 @@
 </template>
 
 <script>
+import Lottie from "vue-lottie";
+import follow from "@/assets/lottie/follow.json";
+
 export default {
-  name: 'SocialMediaComponent'
+  name: 'SocialMediaComponent',
+  components: {
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: {animationData: follow, loop: true},
+    }
+  }
 }
 </script>
