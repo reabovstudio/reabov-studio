@@ -1,19 +1,21 @@
 <template>
-  <div class="navigation-bar shadow">
-    <div class="container">
-      <!-- descktop -->
-      <el-menu v-if="!isMobile"
-               :default-active="activeIndex"
-               class="navigation-bar-menu"
-               @select="handleSelect"
-               background-color="transparent">
-        <el-menu-item index="1">About</el-menu-item>
-        <el-menu-item index="2">Portfolio</el-menu-item>
-        <el-menu-item index="3">Social</el-menu-item>
-        <el-menu-item index="4">Stock</el-menu-item>
-        <el-menu-item index="5">Contact</el-menu-item>
-      </el-menu>
-    </div>
+  <div class="navigation-bar">
+   <div class="shadow">
+     <div class="container">
+       <!-- descktop -->
+       <el-menu v-if="!isMobile"
+                :default-active="activeIndex"
+                class="navigation-bar-menu"
+                @select="handleSelect"
+                background-color="transparent">
+         <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
+         <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
+         <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
+         <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
+         <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
+       </el-menu>
+     </div>
+   </div>
 
     <!-- mobile -->
     <div v-if="isMobile">
@@ -28,11 +30,11 @@
             class="navigation-bar-menu collapse-menu"
             @select="handleSelect"
             background-color="transparent">
-          <el-menu-item index="1">About</el-menu-item>
-          <el-menu-item index="2">Portfolio</el-menu-item>
-          <el-menu-item index="3">Social</el-menu-item>
-          <el-menu-item index="4">Stock</el-menu-item>
-          <el-menu-item index="5">Contact</el-menu-item>
+          <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
+          <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
+          <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
+          <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
+          <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
         </el-menu>
       </div>
     </div>
@@ -65,7 +67,16 @@ export default {
     },
     collabseMenu() {
       this.isActive = !this.isActive;
-      console.log('test');
+    },
+    goToSection(value) {
+      this.collabseMenu();
+
+      const top = document.getElementById(value).offsetTop;
+      window.scrollTo({
+        top: top - 82,
+        left: 0,
+        behavior: 'smooth'
+      });
     },
   }
 }

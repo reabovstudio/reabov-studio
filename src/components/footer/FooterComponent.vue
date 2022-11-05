@@ -8,11 +8,11 @@
         <div class="footer-menu">
           <el-menu class="navigation-bar-menu"
                    background-color="transparent">
-            <el-menu-item index="1">About</el-menu-item>
-            <el-menu-item index="2">Portfolio</el-menu-item>
-            <el-menu-item index="3">Social</el-menu-item>
-            <el-menu-item index="4">Stock</el-menu-item>
-            <el-menu-item index="5">Contact</el-menu-item>
+            <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
+            <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
+            <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
+            <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
+            <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
           </el-menu>
         </div>
       </div>
@@ -28,6 +28,16 @@ export default {
   name: 'FooterComponent',
   components: {
     CopyrightComponent
+  },
+  methods: {
+    goToSection(value) {
+      const top = document.getElementById(value).offsetTop;
+      window.scrollTo({
+        top: top - 82,
+        left: 0,
+        behavior: 'smooth'
+      });
+    },
   }
 }
 </script>

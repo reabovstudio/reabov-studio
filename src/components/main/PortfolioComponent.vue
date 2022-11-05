@@ -24,6 +24,7 @@ export default {
             images: data,
             options: {
                 dots: false,
+                autoplay: true,
                 infinite: true,
                 centerMode: true,
                 slidesToShow: 1,
