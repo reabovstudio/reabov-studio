@@ -4,10 +4,13 @@ import './assets/scss/main.scss'
 import elementUi from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en'
+import FormWizard from "vue-form-wizard";
+import "vue-form-wizard/dist/vue-form-wizard.min.css";
 
 Vue.config.productionTip = false
 
 Vue.use(elementUi, locale)
+Vue.use(FormWizard);
 
 const filter = function (text, length, clamp) {
   clamp = clamp || '...';
