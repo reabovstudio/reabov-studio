@@ -9,6 +9,8 @@
       <animation-component></animation-component>
       <portfolio-component></portfolio-component>
       <stock-component></stock-component>
+      <social-media-component></social-media-component>
+      <contact-component></contact-component>
     </el-main>
     <el-footer height="auto">
       <footer-component></footer-component>
@@ -23,6 +25,8 @@ import AboutComponent from '@/components/main/AboutComponent.vue';
 import AnimationComponent from '@/components/main/AnimationComponent';
 import PortfolioComponent from '@/components/main/PortfolioComponent.vue';
 import StockComponent from '@/components/main/stock/StockComponent';
+import SocialMediaComponent from '@/components/main/SocialMediaComponent';
+import ContactComponent from '@/components/main/ContactComponent';
 import FooterComponent from '@/components/footer/FooterComponent.vue';
 
 export default {
@@ -34,6 +38,8 @@ export default {
     AnimationComponent,
     PortfolioComponent,
     StockComponent,
+    SocialMediaComponent,
+    ContactComponent,
     FooterComponent,
   }
 }
