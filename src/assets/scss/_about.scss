@@ -3,30 +3,9 @@
     display: flex;
     flex-direction: column;
 
-
     @include for-md {
       flex-direction: row;
       align-items: flex-end;
-    }
-
-    h1 {
-      font-size: 54px;
-      margin: 70px 0;
-      color: #fff;
-      text-align: center;
-
-      @include for-md {
-        position: absolute;
-        z-index: -1;
-      }
-
-      @include for-lg {
-        font-size: 105px;
-      }
-
-      @include for-xl {
-        font-size: 140px;
-      }
     }
 
     .about-img {
@@ -55,6 +34,8 @@
 
     .about-description {
       padding: 20px;
+      display: flex;
+      align-items: center;
 
       @include for-md {
         width: 100%;
@@ -68,6 +49,7 @@
 
       p {
         font-size: 18px;
+        overflow-wrap: break-word;
         color: #fff;
         margin: 0;
       }
