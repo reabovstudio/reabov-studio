@@ -21,12 +21,8 @@
         </p>
       </div>
       <div class="about-me">
-        <div class="about-vertical-text">
-          <div class="rotated-items">
-            <span>ABOUT ME</span>
-            <span>ABOUT ME</span>
-            <span>ABOUT ME</span>
-          </div>
+        <div>
+          <lottie :options="defaultOptions" width="auto" height="auto"/>
         </div>
         <div class="about-video">
           <video src="@/assets/reabov-from-md.mp4" controls></video>
@@ -37,7 +33,18 @@
 </template>
 
 <script>
+import Lottie from "vue-lottie";
+import about from "@/assets/lottie/about.json";
+
 export default {
   name: 'AboutComponent',
+  components: {
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: { animationData: about, loop: true }
+    }
+  }
 }
 </script>
