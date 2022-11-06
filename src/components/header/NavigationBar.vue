@@ -30,12 +30,12 @@
             class="navigation-bar-menu collapse-menu"
             @select="handleSelect"
             background-color="transparent">
+          <translate-component></translate-component>
           <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
           <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
           <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
-          <translate-component></translate-component>
         </el-menu>
       </div>
     </div>
@@ -82,7 +82,7 @@ export default {
 
       const top = document.getElementById(value).offsetTop;
       window.scrollTo({
-        top: top - 82,
+        top: top - 132,
         left: 0,
         behavior: 'smooth'
       });

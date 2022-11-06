@@ -8,7 +8,6 @@
 import Lottie from "vue-lottie";
 import services from "@/assets/lottie/services.json";
 
-
 export default {
   name: 'AnimationComponent',
   components: {
