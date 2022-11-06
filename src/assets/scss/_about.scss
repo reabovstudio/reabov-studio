@@ -2,10 +2,39 @@
   .about-banner {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    position: relative;
 
     @include for-md {
+      padding-top: 100px;
+    }
+
+    @include for-lg {
       flex-direction: row;
       align-items: flex-end;
+      padding-top: 0;
+    }
+
+    .lottie {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+
+      @include for-lg {
+        top: unset;
+        bottom: 0;
+      }
+
+      & > div {
+        @include for-lg {
+
+          width: 530px!important;
+        }
+
+        @include for-xl {
+          width: 700px!important;
+        }
+      }
     }
 
     .about-img {

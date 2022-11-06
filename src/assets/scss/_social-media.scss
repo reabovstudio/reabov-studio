@@ -1,11 +1,14 @@
 .social-media {
   max-width: 800px;
   margin: auto;
-  height: 100vh;
   min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @include for-md {
+    height: 100vh;
+  }
 
   .social-media-heading {
     h1 {

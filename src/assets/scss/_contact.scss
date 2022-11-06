@@ -3,11 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   min-height: 500px;
 
+  @include for-md {
+    height: 100vh;
+  }
+
   .contact-button {
-    max-width: calc(350px - 60px);
+    max-width: calc(275px - 60px);
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,6 +18,10 @@
     padding: 30px;
     border: 1px solid #fff;
     border-radius: 30px;
+
+    @include for-md {
+      max-width: calc(350px - 60px);
+    }
   }
 
   .contact-button-text {
@@ -22,8 +29,12 @@
     flex-direction: column;
 
     span {
-      font-size: 50px;
+      font-size: 30px;
       color: #fff;
+
+      @include for-md {
+        font-size: 50px;
+      }
     }
   }
 
@@ -32,7 +43,7 @@
 
     h3 {
       color: #fff;
-      font-size: 84px;
+      font-size: 50px;
       margin: 0;
 
       @include for-md {
@@ -42,7 +53,11 @@
 
     span {
       color: #fff;
-      font-size: 36px;
+      font-size: 24px;
+
+      @include for-md {
+        font-size: 36px;
+      }
     }
   }
 }
