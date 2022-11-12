@@ -1,5 +1,5 @@
 <template>
-  <div class="container animation">
+  <div class="animation">
     <lottie :options="defaultOptions"/>
   </div>
 </template>

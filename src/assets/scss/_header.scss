@@ -44,7 +44,7 @@
         transition: opacity 1s ease-in-out;
       }
 
-      .translate {
+      .theme-switcher {
         height: 0;
         opacity: 0;
       }
@@ -59,7 +59,7 @@
         opacity: 1;
       }
 
-      .translate {
+      .theme-switcher {
         height: auto;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
@@ -72,6 +72,6 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     min-height: 41px;
-    background-color: #5a23d8;
+    background-color: $color-primary;
   }
 }

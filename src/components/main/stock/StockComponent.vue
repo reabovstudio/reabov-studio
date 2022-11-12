@@ -6,9 +6,8 @@
           <img :src="require('@/assets/stock-logo.svg')">
         </div>
         <div class="stock-description">
-          <p>Reabov Stock este un proiect pentru designeri creatori de content si Giuvaierilor tot ce trebuie sa faci e
-            sa alegi un abonament portivit tie si ulterior primesti acces la toate materialele mele acumulate in cei 7
-            ani de experienta. Descarca si creaza !</p>
+          <p>xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+            xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx </p>
         </div>
       </div>
       <slider v-bind="options">
@@ -45,35 +44,30 @@ export default {
       items: [
         {
           id: 1,
+          title: 'Sounds',
+          description: 'Sounds Effects for Video Editing Blogging, Presentation, Animations and Other.',
+          animation: 'sounds.png',
+          url: 'https://www.patreon.com/reabovstudio'
+        },
+        {
+          id: 2,
           title: 'Images',
           description: 'High Resolution Images from my collections that I collected in a few years.',
           animation: 'images.png',
           url: 'https://www.patreon.com/reabovstudio'
         },
         {
-          id: 2,
+          id: 3,
           title: '3D Models',
           description: 'More than 4000 3D Printable jewelry  Models, Sculptures Assets and other.',
           animation: 'jewelry.png',
           url: 'https://www.patreon.com/reabovstudio'
         },
-        {
-          id: 3,
-          title: 'Sounds',
-          description: 'Sounds Effects for Video Editing Blogging, Presentation, Animations and Other.',
-          animation: 'sounds.png',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
-        {
-          id: 4,
-          title: 'Sounds',
-          description: 'Sounds Effects for Video Editing Blogging, Presentation, Animations and Other.',
-          animation: 'sounds.png',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
+
       ],
       options: {
-        dots: true,
+        dots: false,
+        centerMode: true,
         focusOnSelect: true,
         infinite: true,
         speed: 500,

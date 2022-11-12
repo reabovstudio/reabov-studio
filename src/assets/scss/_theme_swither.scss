@@ -1,0 +1,17 @@
+.theme-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+  .el-switch__core {
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
+  .theme {
+    color: #fff;
+    margin: 0 10px;
+  }
+}

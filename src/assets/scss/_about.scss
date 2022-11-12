@@ -77,10 +77,16 @@
       }
 
       p {
-        font-size: 18px;
+        font-size: 14px;
         overflow-wrap: break-word;
         color: #fff;
         margin: 0;
+        text-align: center;
+
+        @include for-md {
+          font-size: 16px;
+          text-align: start;
+        }
       }
     }
 

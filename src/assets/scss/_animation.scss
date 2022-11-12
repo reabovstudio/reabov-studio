@@ -2,11 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
-
-  @include for-md {
-    height: 100vh;
-  }
 
   h1 {
     color: #fff;

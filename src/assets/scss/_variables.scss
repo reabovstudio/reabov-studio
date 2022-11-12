@@ -1,5 +1,6 @@
 /** ------ COLOR VARIABLES ----- **/
-$color-primary: #5a23d8;
+$color-primary: var(--base-color);
+$color-static: #5a23d8;
 
 /** ------ RESPONSIVE BREAK POINTS ----- **/
 /** ------ Small small screen ------ **/
