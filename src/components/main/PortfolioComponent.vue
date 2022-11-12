@@ -2,6 +2,9 @@
   <div class="portfolio">
     <slider v-bind="options">
       <div>
+        <img :src="getImgUrl('gif1.gif')">
+      </div>
+      <div>
         <iframe title="vimeo-player" src="https://player.vimeo.com/video/687114150?h=e9f9c96261" width="400" height="400" frameborder="0" allowfullscreen></iframe>
       </div>
       <div>
@@ -49,7 +52,7 @@ export default {
     return {
       options: {
         dots: false,
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         centerMode: true,
         slidesToShow: 1,

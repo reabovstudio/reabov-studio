@@ -1,5 +1,5 @@
 .stock {
-  padding: 100px 0;
+  padding: 120px 0;
   background-color: #000;
 
   .stock-logo {
@@ -18,6 +18,10 @@
     }
   }
 
+  .stock-info {
+    margin: 0 10px;
+  }
+
   .stock-description {
     text-align: center;
     color: #fff;
@@ -26,12 +30,24 @@
     margin: auto;
   }
 
+  //.slick-slider {
+  //  margin-left: -15px;
+  //  margin-right: -15px;
+  //}
+
   .stock-item-card {
-    max-width: 300px;
-    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    width: calc(100% - 10px);
+    background-color: $color-static;
     border-radius: 30px;
-    margin: 25px 10px;
-    padding: 25px;
+    margin: 25px 5px;
+    padding: 25px 0;
+
+    img {
+      width: 100%;
+    }
 
     @include for-md {
       margin: 25px;
@@ -45,6 +61,7 @@
       font-weight: 100;
       color: #fff;
       margin-top: 0;
+      margin-bottom: 20px;
 
       @include for-md {
         font-size: 38px;
@@ -60,9 +77,8 @@
   }
 
   .stock-item-animation {
-    margin-left: -25px;
-    margin-right: -25px;
     min-height: 175px;
+    overflow: hidden;
 
     img {
       width: 100%;
@@ -94,6 +110,8 @@
   }
 
   .stock-footer {
+    margin: 0 10px;
+
     p {
       color: #fff;
       font-size: 16px;
@@ -102,9 +120,10 @@
 
     h5 {
       color: #FFD800;
-      font-size: 48px;
+      font-size: 40px;
       margin: 0;
       text-align: center;
+      line-height: 1;
     }
   }
 }

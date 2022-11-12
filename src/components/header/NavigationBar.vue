@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import TranslateComponent from "@/components/main/TranslateComponent";
+import TranslateComponent from "@/components/common/ThemeSwitcherComponent";
 
 export default {
   name: 'NavigationBar',
@@ -61,9 +61,6 @@ export default {
     isMobile() {
       return this.windowWidth < 768;
     },
-    language() {
-      return this.$store.getters['getLanguage'];
-    }
   },
   mounted() {
     window.addEventListener("resize", () => {
