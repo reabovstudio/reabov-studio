@@ -52,7 +52,7 @@ export default {
         {
           id: 2,
           title: '3D Models',
-          description: 'More than 5000 JEWELRY PRINTABLE 3D MODELS: rings, pendants, earrings, chains, bracelets.',
+          description: 'More than 5000 JEWELRY PRINTABLE 3D MODELS: rings, pendants, earrings, chains.',
           animation: 'reabovstudio_jewelry.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },

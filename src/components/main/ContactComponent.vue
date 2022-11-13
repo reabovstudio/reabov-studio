@@ -4,7 +4,9 @@
     <div class="contact">
       <div class="contact-button">
         <div class="contact-button-image">
-          <img :src="require('@/assets/telegram.svg')">
+          <a target="_blank" href="https://t.me/reabovstudio">
+            <img :src="require('@/assets/telegram.svg')">
+          </a>
         </div>
       </div>
       <div class="contact-info">

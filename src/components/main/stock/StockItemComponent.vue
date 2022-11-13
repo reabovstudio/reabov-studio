@@ -10,7 +10,7 @@
       <el-image :src="require(`@/assets/images/stock/${ animation }`)"></el-image>
     </div>
     <div class="stock-item-button">
-      <a :href="url">join now</a>
+      <a target="_blank" :href="url">join now</a>
     </div>
   </div>
 </template>
