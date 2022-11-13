@@ -46,7 +46,7 @@ export default {
     return {
       options: {
         dots: false,
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         centerMode: true,
         slidesToShow: 1,

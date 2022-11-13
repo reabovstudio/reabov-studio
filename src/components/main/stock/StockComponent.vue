@@ -6,8 +6,8 @@
           <img :src="require('@/assets/stock-logo.svg')">
         </div>
         <div class="stock-description">
-          <p>xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
-            xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx </p>
+          <p>The REABOV STOCK project was designed to inspire and motivate people to create, admire and always learn
+            something new with me! Every time I will add new content, 3D Models - Tutorials - Sounds.</p>
         </div>
       </div>
       <slider v-bind="options">
@@ -20,7 +20,7 @@
         </div>
       </slider>
       <div class="stock-footer">
-        <p>a lot of things for an easiest work process</p>
+        <p>Be inspired, Be productive, Be creative</p>
         <h5>just download and create</h5>
       </div>
     </div>
@@ -44,23 +44,23 @@ export default {
       items: [
         {
           id: 1,
-          title: 'Sounds',
-          description: 'Sounds Effects for Video Editing Blogging, Presentation, Animations and Other.',
-          animation: 'reabovstudio_sound.gif',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
-        {
-          id: 2,
-          title: 'Images',
-          description: 'High Resolution Images from my collections that I collected in a few years.',
+          title: 'My Studio',
+          description: 'My work process, Tutorials, Templates, Mockups, Textures, Assets, and my ARTWORKS.',
           animation: 'reabovstudio_studio.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },
         {
-          id: 3,
+          id: 2,
           title: '3D Models',
-          description: 'More than 4000 3D Printable jewelry  Models, Sculptures Assets and other.',
+          description: 'More than 5000 JEWELRY PRINTABLE 3D MODELS: rings, pendants, earrings, chains, bracelets.',
           animation: 'reabovstudio_jewelry.gif',
+          url: 'https://www.patreon.com/reabovstudio'
+        },
+        {
+          id: 3,
+          title: 'Sounds',
+          description: 'Beats, Sound effects, Loops, Samples, For Blogging, Video Editing and Motion Design.',
+          animation: 'reabovstudio_sound.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },
       ],

@@ -4,7 +4,7 @@
       <h3>{{ title }}</h3>
     </div>
     <div class="stock-item-description">
-      <p>{{ description | truncate(50, '...') }}</p>
+      <p>{{ description | truncate(100, '...') }}</p>
     </div>
     <div class="stock-item-animation" v-if="animation">
       <el-image :src="require(`@/assets/images/stock/${ animation }`)"></el-image>
