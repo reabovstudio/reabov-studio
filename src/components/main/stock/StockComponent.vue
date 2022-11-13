@@ -46,24 +46,23 @@ export default {
           id: 1,
           title: 'Sounds',
           description: 'Sounds Effects for Video Editing Blogging, Presentation, Animations and Other.',
-          animation: 'sounds.png',
+          animation: 'reabovstudio_sound.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },
         {
           id: 2,
           title: 'Images',
           description: 'High Resolution Images from my collections that I collected in a few years.',
-          animation: 'images.png',
+          animation: 'reabovstudio_studio.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },
         {
           id: 3,
           title: '3D Models',
           description: 'More than 4000 3D Printable jewelry  Models, Sculptures Assets and other.',
-          animation: 'jewelry.png',
+          animation: 'reabovstudio_jewelry.gif',
           url: 'https://www.patreon.com/reabovstudio'
         },
-
       ],
       options: {
         dots: false,

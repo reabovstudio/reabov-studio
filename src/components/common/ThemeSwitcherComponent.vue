@@ -43,7 +43,9 @@ export default {
     },
     switchThemeMode() {
       const baseColor = this.modeValue ? '#5a22d9' : '#000';
+      const secondColor = this.modeValue ? '#000' : '#5a22d9';
       document.documentElement.style.setProperty('--base-color', baseColor);
+      document.documentElement.style.setProperty('--second-color', secondColor);
     },
     storeMode(key, value) {
       localStorage.setItem(key, value);

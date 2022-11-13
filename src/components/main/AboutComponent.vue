@@ -17,7 +17,7 @@
           Design, Animations, Sound Design, Digital Art and Content Creation.
           I love what I am doing! Each project is a special one for me and in the creative process I try to live the
           emotions that I want to express to the audience. People are looking for emotions and are conquered by
-          them every day. I believe that “Art is everything”, as every moment in life has its own emotions like
+          them every day. I believe that “Art in everything”, as every moment in life has its own emotions like
           every brand or product, that I try to express it through imagination and creativity.
           My name is Alexandru and I am a Designer ;)
         </p>
@@ -27,7 +27,7 @@
           <lottie :options="defaultOptions"/>
         </div>
         <div class="about-video">
-          <video src="@/assets/reabov-from-md.mp4" controls></video>
+          <img :src="require(`@/assets/about-reabov-studio.gif`)">
         </div>
       </div>
     </div>
@@ -46,6 +46,7 @@ export default {
   },
   data() {
     return {
+      loading: true,
       defaultOptions: {animationData: about, loop: true},
       defaultOptions2: {animationData: designer, loop: true}
     }

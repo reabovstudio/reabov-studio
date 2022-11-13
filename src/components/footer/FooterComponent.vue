@@ -33,7 +33,7 @@ export default {
     goToSection(value) {
       const top = document.getElementById(value).offsetTop;
       window.scrollTo({
-        top: top - 82,
+        top: top - 132,
         left: 0,
         behavior: 'smooth'
       });
