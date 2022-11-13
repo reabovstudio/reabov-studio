@@ -19,15 +19,11 @@
 
     <!-- mobile -->
     <div v-if="isMobile">
-      <div class="navigation-bar-mobile shadow">
-        <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collabseMenu">
-          <span></span>
-          <span></span>
-        </div>
+      <div class="navigation-bar-mobile collapse-menu shadow" :class="{active: this.isActive}">
         <el-menu
             :default-active="activeIndex"
             :class="{active: this.isActive}"
-            class="navigation-bar-menu collapse-menu"
+            class="navigation-bar-menu"
             @select="handleSelect"
             background-color="transparent">
           <translate-component></translate-component>
@@ -37,6 +33,10 @@
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
         </el-menu>
+        <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collabseMenu">
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   </div>

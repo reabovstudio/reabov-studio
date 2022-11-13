@@ -8,10 +8,15 @@
   .contact-button {
     max-width: calc(275px - 60px);
     transition: .5s ease-in-out;
-    border-radius: 25px;
+    border-radius: 15px;
 
     @include for-md {
       max-width: calc(350px - 60px);
+      border-radius: 20px;
+    }
+
+    .contact-button-image {
+      display: flex;
     }
 
     img {
@@ -21,7 +26,7 @@
     &:hover {
       cursor: pointer;
       transform: translateY(-5px);
-      box-shadow: 0 10px 30px 4px;
+      box-shadow: 0 10px 30px 4px $color-secondary;
     }
   }
 

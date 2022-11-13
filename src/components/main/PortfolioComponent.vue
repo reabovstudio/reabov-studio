@@ -2,37 +2,31 @@
   <div class="portfolio">
     <slider v-bind="options">
       <div>
-        <img :src="getImgUrl('gif1.gif')">
+        <img :src="getImgUrl('reabovstudio_1.gif')">
       </div>
       <div>
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/687114150?h=e9f9c96261" width="400" height="400" frameborder="0" allowfullscreen></iframe>
+        <img :src="getImgUrl('reabovstudio_2.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('1.png')">
+        <img :src="getImgUrl('reabovstudio_3.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('2.png')">
+        <img :src="getImgUrl('reabovstudio_4.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('3.png')">
+        <img :src="getImgUrl('reabovstudio_5.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('4.png')">
+        <img :src="getImgUrl('reabovstudio_6.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('5.png')">
+        <img :src="getImgUrl('reabovstudio_7.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('6.png')">
+        <img :src="getImgUrl('reabovstudio_8.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('7.png')">
-      </div>
-      <div>
-        <img :src="getImgUrl('8.png')">
-      </div>
-      <div>
-        <img :src="getImgUrl('9.png')">
+        <img :src="getImgUrl('reabovstudio_9.gif')">
       </div>
     </slider>
   </div>
@@ -52,7 +46,7 @@ export default {
     return {
       options: {
         dots: false,
-        autoplay: false,
+        autoplay: true,
         infinite: true,
         centerMode: true,
         slidesToShow: 1,

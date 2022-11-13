@@ -51,7 +51,6 @@
   .about-info {
     display: flex;
     flex-direction: column;
-    min-height: 400px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -66,13 +65,12 @@
       display: flex;
       align-items: center;
 
-      @include for-md {
-        width: 100%;
+      @include for-sm {
         padding: 50px 50px 0;
       }
 
       @include for-xl {
-        width: calc(35% - 50px);
+        width: calc(40% - 50px);
         padding: 50px 0 50px 50px;
       }
 
@@ -83,26 +81,30 @@
         margin: 0;
         text-align: center;
 
-        @include for-md {
-          font-size: 16px;
+        @include for-sm {
           text-align: start;
         }
       }
     }
 
     .about-me {
-      @include for-md {
+      @include for-sm {
         display: flex;
         padding: 50px;
+        width: calc(100% - 100px);
       }
 
       @include for-xl {
-        width: calc(65% - 50px);
+        width: calc(60% - 50px);
         padding: 50px 50px 50px 0;
         margin-left: auto;
       }
 
       .lottie {
+        @include for-sm {
+          width: 20%;
+        }
+
         & > div {
           width: auto!important;
           height: auto!important;
@@ -112,7 +114,11 @@
       .about-video {
         display: flex;
 
-        video {
+        @include for-sm {
+          width: 80%;
+        }
+
+        img {
           width: 100%;
         }
       }
