@@ -6,8 +6,8 @@
     <el-main>
       <banner-component></banner-component>
       <about-component id="AboutRef"></about-component>
-      <animation-component></animation-component>
-      <portfolio-component id="PortfolioRef"></portfolio-component>
+      <animation-component id="PortfolioRef"></animation-component>
+      <portfolio-component></portfolio-component>
       <stock-component id="StockRef"></stock-component>
       <social-media-component id="SocialRef"></social-media-component>
       <contact-component id="ContactRef"></contact-component>

@@ -9,7 +9,7 @@
                  @select="handleSelect"
                  background-color="transparent">
           <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
-          <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
+          <el-menu-item index="2" @click="goToSection('PortfolioRef', -500)">Portfolio</el-menu-item>
           <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
@@ -74,12 +74,12 @@ export default {
     collabseMenu() {
       this.isActive = !this.isActive;
     },
-    goToSection(value) {
+    goToSection(value, height = 132) {
       this.collabseMenu();
 
       const top = document.getElementById(value).offsetTop;
       window.scrollTo({
-        top: top - 132,
+        top: top - height,
         left: 0,
         behavior: 'smooth'
       });
