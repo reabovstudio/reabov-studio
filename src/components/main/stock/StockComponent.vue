@@ -4,21 +4,88 @@
       <div class="stock-info">
         <div class="stock-logo">
           <img :src="require('@/assets/stock-logo.svg')">
+          <span>be inspired be productive be creative</span>
         </div>
-        <div class="stock-description">
-          <p>The REABOV STOCK project was designed to inspire and motivate people to create, admire and always learn
-            something new with me! Every time I will add new content, 3D Models - Tutorials - Sounds.</p>
+        <div class="stock-icons">
+          <div class="stock-icon">
+            <i class="icon-jewelry"></i>
+          </div>
+          <div class="stock-icon">
+            <i class="icon-camera"></i>
+          </div>
+          <div class="stock-icon">
+            <i class="icon-youtube"></i>
+          </div>
         </div>
       </div>
-      <slider v-bind="options">
-        <div class="stock-item" v-for="item in items" :key="item.id">
-          <stock-item-component :title="item.title"
-                                :description="item.description"
-                                :animation="item.animation"
-                                :url="item.url">
-          </stock-item-component>
-        </div>
-      </slider>
+
+      <div class="stock-items">
+        <el-row>
+          <el-col :span="24">
+            <div class="stock-item-card jewelry-card shadow-bottom">
+              <div class="stock-item-content">
+                <h3>3D Printable Jewelry Models.</h3>
+                <div class="stock-item-tags">
+                  <span class="stock-item-tag">#rings</span>
+                  <span class="stock-item-tag">#wedding rings</span>
+                  <span class="stock-item-tag">#pendants</span>
+                  <span class="stock-item-tag">#icons</span>
+                  <span class="stock-item-tag">#couloms</span>
+                  <span class="stock-item-tag">#crosses</span>
+                  <span class="stock-item-tag">#earrings</span>
+                  <span class="stock-item-tag">#sculptures</span>
+                </div>
+                <div class="stock-item-description">
+                  <p>More than 4000 3D Printable Jewelry Models just join on our PATREON, be subscribed and download.</p>
+                </div>
+              </div>
+              <div class="stock-item-btn">
+                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+              </div>
+            </div>
+          </el-col>
+          <el-col :lg="8">
+            <div class="stock-item-card sound-card shadow-bottom">
+              <div class="stock-item-head">
+                <h4>Sounds Design</h4>
+                <div class="stock-item-description">
+                  <p>Sound Design and Producing NO COPY RIGHT SOUND FREE FOR #motion graphic #video editing</p>
+                </div>
+              </div>
+              <div class="stock-item-btn">
+                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+              </div>
+            </div>
+          </el-col>
+          <el-col :lg="8">
+            <div class="stock-item-card studio-card shadow-bottom">
+              <div class="stock-item-footer">
+                <h3>ON STUDIO</h3>
+                <div class="stock-item-description">
+                  <p>Welcome on my studio, here we talk about art, design, music.</p>
+                </div>
+              </div>
+              <div class="stock-item-btn">
+                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+              </div>
+            </div>
+          </el-col>
+          <el-col :lg="8">
+            <div class="stock-item-card fonts-card shadow-bottom">
+              <div class="stock-item-head">
+                <h4>FONTS Collection</h4>
+                <div class="stock-item-description">
+                  <p>Here we create fonts, oh yeah!!! learn how to create your font and download fonts for free</p>
+                </div>
+              </div>
+              <div class="stock-item-btn">
+                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+
       <div class="stock-footer">
         <p>Be inspired, Be productive, Be creative</p>
         <h5>just download and create</h5>
@@ -28,72 +95,11 @@
 </template>
 
 <script>
-import Slider from 'vue-slick-carousel';
-import 'vue-slick-carousel/dist/vue-slick-carousel.css';
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import StockItemComponent from '@/components/main/stock/StockItemComponent';
-
 export default {
   name: 'StockComponent',
-  components: {
-    Slider,
-    StockItemComponent
-  },
   data() {
     return {
-      items: [
-        {
-          id: 1,
-          title: 'My Studio',
-          description: 'My work process, Tutorials, Templates, Mockups, Textures, Assets, and my ARTWORKS.',
-          animation: 'reabovstudio_studio.gif',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
-        {
-          id: 2,
-          title: '3D Models',
-          description: 'More than 5000 JEWELRY PRINTABLE 3D MODELS: rings, pendants, earrings, chains.',
-          animation: 'reabovstudio_jewelry.gif',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
-        {
-          id: 3,
-          title: 'Sounds',
-          description: 'Beats, Sound effects, Loops, Samples, For Blogging, Video Editing and Motion Design.',
-          animation: 'reabovstudio_sound.gif',
-          url: 'https://www.patreon.com/reabovstudio'
-        },
-      ],
-      options: {
-        dots: false,
-        centerMode: true,
-        focusOnSelect: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        touchThreshold: 5,
-        responsive: [
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              arrows: true,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              arrows: false,
-              initialSlide: 2
-            }
-          }
-        ]
-      }
+
     }
   }
 }
