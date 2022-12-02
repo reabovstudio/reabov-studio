@@ -6,8 +6,7 @@
     <el-main>
       <banner-component></banner-component>
       <about-component id="AboutRef"></about-component>
-      <animation-component id="PortfolioRef"></animation-component>
-      <portfolio-component></portfolio-component>
+      <portfolio-component id="PortfolioRef"></portfolio-component>
       <stock-component id="StockRef"></stock-component>
       <social-media-component id="SocialRef"></social-media-component>
       <contact-component id="ContactRef"></contact-component>
@@ -22,7 +21,6 @@
 import NavigationBar from '@/components/header/NavigationBar.vue';
 import BannerComponent from '@/components/main/BannerComponent.vue';
 import AboutComponent from '@/components/main/AboutComponent.vue';
-import AnimationComponent from '@/components/main/AnimationComponent';
 import PortfolioComponent from '@/components/main/PortfolioComponent.vue';
 import StockComponent from '@/components/main/stock/StockComponent';
 import SocialMediaComponent from '@/components/main/SocialMediaComponent';
@@ -35,7 +33,6 @@ export default {
     NavigationBar,
     BannerComponent,
     AboutComponent,
-    AnimationComponent,
     PortfolioComponent,
     StockComponent,
     SocialMediaComponent,

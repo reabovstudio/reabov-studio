@@ -1,6 +1,6 @@
 <template>
   <div class="theme-switcher" >
-    <span class="theme">Night</span>
+    <span class="theme">night</span>
     <div @click="switcher">
       <el-switch
           v-model="modeValue"
@@ -8,7 +8,7 @@
           inactive-color="#fff">
       </el-switch>
     </div>
-    <span class="theme">Purple</span>
+    <span class="theme">purple</span>
   </div>
 </template>
 
@@ -30,15 +30,8 @@ export default {
   },
   methods: {
     switcher() {
-      // this.modeValue = !this.modeValue;
-      // save mode value in local storage
-
-      // console.log(this.modeValue);
-
       this.storeMode(this.modeKey, this.modeValue)
-      // send mode value in vuex store
-      // this.$store.dispatch('setMode', this.modeValue);
-      // set base and second color on root
+
       this.switchThemeMode();
     },
     switchThemeMode() {

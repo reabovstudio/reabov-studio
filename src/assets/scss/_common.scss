@@ -47,6 +47,7 @@ body {
     }
 }
 
+/** ----- containers ----- **/
 .container {
     margin: auto;
     padding-left: 15px;
@@ -72,5 +73,20 @@ body {
 
     @include for-xl {
         max-width: 1140px;
+    }
+}
+
+/** ----- shadows ----- **/
+.shadow-bottom {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: -100px;
+        right: -100px;
+        bottom: 0;
+        box-shadow: 0 0 100px 100px #000;
     }
 }
