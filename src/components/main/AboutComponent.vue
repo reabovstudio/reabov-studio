@@ -31,18 +31,21 @@
         </div>
       </div>
     </div>
+    <tags-component></tags-component>
   </div>
 </template>
 
 <script>
 import Lottie from "vue-lottie";
+import TagsComponent from "@/components/TagsComponent.vue";
 import about from "@/assets/lottie/about.json";
 import designer from "@/assets/lottie/designer.json";
 
 export default {
   name: 'AboutComponent',
   components: {
-    Lottie
+    Lottie,
+    TagsComponent
   },
   data() {
     return {
