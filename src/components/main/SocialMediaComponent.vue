@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <lottie :options="defaultOptions2"/>
     <div class="social-media">
       <div class="social-media-heading">
         <lottie :options="defaultOptions"/>
@@ -29,6 +30,7 @@
 <script>
 import Lottie from "vue-lottie";
 import follow from "@/assets/lottie/follow.json";
+import swipe from "@/assets/lottie/swipe.json";
 
 export default {
   name: 'SocialMediaComponent',
@@ -38,6 +40,7 @@ export default {
   data() {
     return {
       defaultOptions: {animationData: follow, loop: true},
+      defaultOptions2: {animationData: swipe, loop: true}
     }
   }
 }

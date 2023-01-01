@@ -14,6 +14,7 @@
     <el-footer height="auto">
       <footer-component></footer-component>
     </el-footer>
+    <request-button-component></request-button-component>
   </el-container>
 </template>
 
@@ -26,6 +27,7 @@ import StockComponent from '@/components/main/stock/StockComponent';
 import SocialMediaComponent from '@/components/main/SocialMediaComponent';
 import ContactComponent from '@/components/main/ContactComponent';
 import FooterComponent from '@/components/footer/FooterComponent.vue';
+import RequestButtonComponent from "@/components/common/RequestButtonComponent.vue";
 
 export default {
   name: 'HomeView',
@@ -38,6 +40,7 @@ export default {
     SocialMediaComponent,
     ContactComponent,
     FooterComponent,
+    RequestButtonComponent
   }
 }
 </script>
@@ -48,7 +51,7 @@ export default {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99999;
 }
 
 .el-header {

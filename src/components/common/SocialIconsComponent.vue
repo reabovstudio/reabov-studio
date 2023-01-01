@@ -7,7 +7,7 @@
     </div>
     <div class="social-icon">
       <a href="#">
-        <i class="icon-jewelry"></i>
+        <i class="icon-ring"></i>
       </a>
     </div>
     <div class="social-icon">
