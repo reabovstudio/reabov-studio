@@ -46,7 +46,7 @@ export default {
         },
         {
           id: 9,
-          name: '#amazon listing'
+          name: '#fonts'
         }
       ]
     }

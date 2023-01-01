@@ -8,13 +8,13 @@
         </div>
         <div class="stock-icons">
           <div class="stock-icon">
-            <i class="icon-jewelry"></i>
+            <i class="icon-ring"></i>
           </div>
           <div class="stock-icon">
             <i class="icon-camera"></i>
           </div>
           <div class="stock-icon">
-            <i class="icon-youtube"></i>
+            <i class="icon-sound"></i>
           </div>
         </div>
       </div>
@@ -36,11 +36,12 @@
                   <span class="stock-item-tag">#sculptures</span>
                 </div>
                 <div class="stock-item-description">
-                  <p>More than 4000 3D Printable Jewelry Models just join on our PATREON, be subscribed and download.</p>
+                  <p>More than 4000 3D Printable Jewelry Models just join on our PATREON, be subscribed and
+                    download.</p>
                 </div>
               </div>
               <div class="stock-item-btn">
-                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+                <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
               </div>
             </div>
           </el-col>
@@ -49,11 +50,12 @@
               <div class="stock-item-head">
                 <h4>Sounds Design</h4>
                 <div class="stock-item-description">
-                  <p>Sound Design and Producing NO COPY RIGHT SOUND FREE FOR #motion graphic #video editing</p>
+                  <p>NO COPY RIGHT SOUND FOR</p>
+                  <p>#motion graphic #video editing</p>
                 </div>
               </div>
               <div class="stock-item-btn">
-                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+                <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
               </div>
             </div>
           </el-col>
@@ -66,7 +68,7 @@
                 </div>
               </div>
               <div class="stock-item-btn">
-                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+                <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
               </div>
             </div>
           </el-col>
@@ -79,7 +81,7 @@
                 </div>
               </div>
               <div class="stock-item-btn">
-                <a href="https://www.patreon.com/reabovstudio">Discover</a>
+                <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
               </div>
             </div>
           </el-col>
@@ -98,9 +100,7 @@
 export default {
   name: 'StockComponent',
   data() {
-    return {
-
-    }
+    return {}
   }
 }
 </script>

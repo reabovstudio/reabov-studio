@@ -1,5 +1,6 @@
 .stock {
   padding: 120px 0;
+  margin-bottom: 100px;
   background-color: #000;
 
   .stock-logo {
@@ -49,12 +50,15 @@
       font-size: 40px;
       margin: 0;
       width: 330px;
+      font-weight: 400;
+      line-height: 1.2;
     }
 
     h4 {
-      font-size: 25px;
+      font-size: 18px;
       color: #fff;
       margin: 0;
+      font-weight: 400;
     }
 
     .stock-item-tags {
@@ -76,7 +80,7 @@
 
       p {
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
       }
     }
 
@@ -107,8 +111,13 @@
 
       a {
         font-size: 30px;
+        font-weight: 600;
         text-decoration: none;
         color: #fff;
+      }
+
+      i {
+        font-size: 24px;
       }
     }
   }
@@ -127,6 +136,12 @@
       flex-direction: row;
       align-items: center;
     }
+
+    .stock-item-btn {
+      a {
+        color: #ffdd00;
+      }
+    }
   }
 
   .studio-card {
@@ -137,6 +152,12 @@
     background-size: cover;
     background-position: center;
     background-image: url("@/assets/studio.png");
+
+    .stock-item-btn {
+      a {
+        color: #ffdd00;
+      }
+    }
   }
 
   .sound-card {
@@ -151,6 +172,12 @@
     .stock-item-description {
       text-align: right;
     }
+
+    .stock-item-btn {
+      a {
+        color: #74e5ff;
+      }
+    }
   }
 
   .fonts-card {
@@ -164,6 +191,12 @@
 
     .stock-item-description {
       text-align: right;
+    }
+
+    .stock-item-btn {
+      a {
+        color: #a0fa00;
+      }
     }
   }
 }
