@@ -28,6 +28,9 @@
       <div>
         <img :src="getImgUrl('reabovstudio_9.gif')">
       </div>
+      <div>
+        <img :src="getImgUrl('reabovstudio_10.gif')">
+      </div>
     </slider>
   </div>
 </template>
