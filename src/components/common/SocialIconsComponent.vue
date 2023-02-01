@@ -1,17 +1,17 @@
 <template>
   <div class="social-icons">
     <div class="social-icon">
-      <a href="https://www.instagram.com/reabov.studio/">
+      <a href="https://www.instagram.com/reabovstudio/">
         <i class="icon-instagram"></i>
       </a>
     </div>
     <div class="social-icon">
-      <a href="#">
+      <a href="https://reabovstock.com">
         <i class="icon-ring"></i>
       </a>
     </div>
     <div class="social-icon">
-      <a href="https://www.behance.net/reabov">
+      <a href="https://www.behance.net/reabovstudio">
         <i class="icon-behance"></i>
       </a>
     </div>
