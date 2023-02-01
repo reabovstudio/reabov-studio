@@ -1,6 +1,5 @@
 .stock {
   padding: 120px 0;
-  margin-bottom: 100px;
   background-color: #000;
 
   .stock-logo {
@@ -25,6 +24,10 @@
       color: #fff;
       font-size: 14px;
     }
+
+    p {
+      color: #fff;
+    }
   }
 
   .stock-info {
@@ -47,11 +50,15 @@
 
     h3 {
       color: #fff;
-      font-size: 40px;
+      font-size: 20px;
       margin: 0;
-      width: 330px;
       font-weight: 400;
       line-height: 1.2;
+
+      @include for-sm {
+        width: 330px;
+        font-size: 40px;
+      }
     }
 
     h4 {
@@ -61,26 +68,19 @@
       font-weight: 400;
     }
 
-    .stock-item-tags {
-      max-width: 330px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin: 20px 0;
-
-      .stock-item-tag {
-        font-size: 14px;
-        color: #fff;
-      }
-    }
-
     .stock-item-description {
-      margin-top: auto;
-      max-width: 500px;
+      @include for-sm {
+        margin-top: auto;
+      }
 
       p {
+        margin: 0;
         color: #fff;
-        font-size: 12px;
+        font-size: 10px;
+
+        @include for-sm {
+          font-size: 14px;
+        }
       }
     }
 
@@ -216,4 +216,8 @@
       font-size: 36px;
     }
   }
+}
+
+.stock-footer {
+  color: #fff;
 }

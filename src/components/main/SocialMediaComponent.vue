@@ -7,7 +7,7 @@
       </div>
       <div class="social-media-items">
         <div class="social-media-item">
-          <a href="https://www.instagram.com/reabov.studio/">instagram</a>
+          <a href="https://www.instagram.com/reabovstudio/">instagram</a>
           <span>follow me</span>
         </div>
         <div class="social-media-item">
@@ -15,7 +15,7 @@
           <span>portfolio</span>
         </div>
         <div class="social-media-item">
-          <a href="https://www.behance.net/reabov">behance</a>
+          <a href="https://www.behance.net/reabovstudio">behance</a>
           <span>portfolio</span>
         </div>
         <div class="social-media-item">

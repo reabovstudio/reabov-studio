@@ -1,6 +1,6 @@
 <template>
   <div class="copyright">
-    <span>Reabov © 2022 </span>
+    <span>Reabov © 2023 </span>
   </div>
 </template>
 

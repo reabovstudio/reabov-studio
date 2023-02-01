@@ -2,25 +2,16 @@
   <div class="portfolio">
     <slider v-bind="options">
       <div>
-        <img :src="getImgUrl('reabovstudio_1.gif')">
+        <img :src="getImgUrl('reabovstudio_10.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('reabovstudio_2.gif')">
+        <img :src="getImgUrl('reabovstudio_1.gif')">
       </div>
       <div>
         <img :src="getImgUrl('reabovstudio_3.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('reabovstudio_4.gif')">
-      </div>
-      <div>
-        <img :src="getImgUrl('reabovstudio_5.gif')">
-      </div>
-      <div>
         <img :src="getImgUrl('reabovstudio_6.gif')">
-      </div>
-      <div>
-        <img :src="getImgUrl('reabovstudio_7.gif')">
       </div>
       <div>
         <img :src="getImgUrl('reabovstudio_8.gif')">
@@ -29,7 +20,10 @@
         <img :src="getImgUrl('reabovstudio_9.gif')">
       </div>
       <div>
-        <img :src="getImgUrl('reabovstudio_10.gif')">
+        <img :src="getImgUrl('reabovstudio_7.gif')">
+      </div>
+      <div>
+        <img :src="getImgUrl('reabovstudio_2.gif')">
       </div>
     </slider>
   </div>

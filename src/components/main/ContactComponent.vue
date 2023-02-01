@@ -11,7 +11,6 @@
       </div>
       <div class="contact-info">
         <h3>contact</h3>
-        <span>reabovstudio@gmail.com</span>
       </div>
     </div>
     <lottie :options="defaultOptions"/>
