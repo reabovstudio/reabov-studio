@@ -1,5 +1,5 @@
 <template>
-  <div class="banner container section-vh">
+  <div class="banner container">
     <div style="max-width: 600px;">
       <lottie :options="defaultOptions" />
     </div>
@@ -10,7 +10,7 @@
 <script>
 import Lottie from "vue-lottie";
 import logo from "@/assets/lottie/logo.json";
-import TagsComponent from "@/components/TagsComponent";
+import TagsComponent from "@/components/main/tags/TagsComponent.vue";
 
 
 export default {

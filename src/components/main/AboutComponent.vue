@@ -37,7 +37,7 @@
 
 <script>
 import Lottie from "vue-lottie";
-import TagsComponent from "@/components/TagsComponent.vue";
+import TagsComponent from "@/components/main/tags/TagsComponent.vue";
 import about from "@/assets/lottie/about.json";
 import designer from "@/assets/lottie/designer.json";
 
