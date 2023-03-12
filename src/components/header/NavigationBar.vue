@@ -34,7 +34,7 @@
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
         </el-menu>
-        <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collabseMenu">
+        <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collapseMenu">
           <span></span>
           <span></span>
         </div>
@@ -74,18 +74,24 @@ export default {
     handleSelect(key) {
       this.activeIndex = key;
     },
-    collabseMenu() {
+    collapseMenu() {
       this.isActive = !this.isActive;
     },
     goToSection(value, height = 0) {
-      this.collabseMenu();
+      if (this.isMobile) {
+        this.collapseMenu();
+      }
 
-      const top = document.getElementById(value).offsetTop;
-      window.scrollTo({
-        top: top - height,
-        left: 0,
-        behavior: 'smooth'
-      });
+      if (this.$route.name !== 'HomeView') {
+        this.$router.push('/');
+      } else {
+        const top = document.getElementById(value).offsetTop;
+        window.scrollTo({
+          top: top - height,
+          left: 0,
+          behavior: 'smooth'
+        });
+      }
     },
   }
 }

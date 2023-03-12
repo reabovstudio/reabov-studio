@@ -55,6 +55,8 @@
     transition: height .5s ease-in-out;
     background-color: #000;
     min-height: unset;
+    position: relative;
+    top: -500px;
 
     .el-menu-item {
       text-align: center;
@@ -71,11 +73,13 @@
 
     &.active {
       height: 500px;
+      top: 0;
 
       .el-menu-item {
         font-size: 1.563rem;
         margin: 15px 0;
         opacity: 1;
+        z-index: 1;
       }
 
       .theme-switcher {
