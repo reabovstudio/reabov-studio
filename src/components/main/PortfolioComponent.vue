@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div class="portfolio ">
     <slider v-bind="options">
       <div>
         <img :src="getImgUrl('reabovstudio_10.gif')">

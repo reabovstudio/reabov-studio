@@ -10,7 +10,7 @@
                  background-color="transparent">
           <el-menu-item index="1" @click="goToSection('AboutRef')">about</el-menu-item>
           <el-menu-item index="2" @click="goToSection('PortfolioRef', 400)">portfolio</el-menu-item>
-          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>
+<!--          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>-->
           <el-menu-item index="3" @click="goToSection('SocialRef')">social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">contact</el-menu-item>
         </el-menu>
@@ -30,7 +30,7 @@
           <translate-component></translate-component>
           <el-menu-item index="1" @click="goToSection('AboutRef')">About</el-menu-item>
           <el-menu-item index="2" @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
-          <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>
+<!--          <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>-->
           <el-menu-item index="3" @click="goToSection('SocialRef')">Social</el-menu-item>
           <el-menu-item index="5" @click="goToSection('ContactRef')">Contact</el-menu-item>
         </el-menu>

@@ -20,9 +20,7 @@
                :visible.sync="dialogVisible"
                :destroy-on-close="true"
                custom-class="portfolio-modal shadow">
-
       <el-image :src="getImgUrl(this.dialog.landing)"></el-image>
-
       <div slot="footer" class="dialog-footer">
         <img src="@/assets/logo.svg" alt="logo">
       </div>
