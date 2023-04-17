@@ -7,221 +7,85 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "test-landing.jpg"
+                    "label": "Teh km zero",
+                    "cover": "identities/teh-km-zero/1.jpg",
+                    "video": "",
+                    "images": [
+                        "identities/teh-km-zero/1.jpg",
+                        "identities/teh-km-zero/2.jpg",
+                        "identities/teh-km-zero/3.jpg",
+                        "identities/teh-km-zero/4.jpg",
+                        "identities/teh-km-zero/5.jpg",
+                        "identities/teh-km-zero/6.jpg",
+                        "identities/teh-km-zero/7.jpg"
+                    ]
                 },
                 {
                     "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
+                    "label": "Victor Teslaru",
+                    "cover": "identities/victor-teslaru/B1.png",
+                    "video": "",
+                    "images": [
+                        "identities/victor-teslaru/B1.png",
+                        "identities/victor-teslaru/B2.png",
+                        "identities/victor-teslaru/B3.png",
+                        "identities/victor-teslaru/B4.png",
+                        "identities/victor-teslaru/B5.png",
+                        "identities/victor-teslaru/B6.png",
+                        "identities/victor-teslaru/B7.png",
+                        "identities/victor-teslaru/B8.png"
+                    ]
                 }
             ]
         },
         {
             "id": 2,
-            "category": "logo",
-            "slug": "logo",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "category": "motion graphics",
-            "slug": "motion-graphics",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "category": "animations",
-            "slug": "animations",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "category": "websites",
-            "slug": "websites",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "category": "jewelry design",
-            "slug": "jewelry-design",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "category": "product design",
-            "slug": "product-design",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 8,
             "category": "amazon listing",
             "slug": "amazon-listing",
             "items": [
                 {
                     "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
+                    "label": "powerbank",
+                    "cover": "amazon-listing/powerbank/cover.png",
+                    "video": "amazon-listing/powerbank/powerbank.mp4",
+                    "images": [
+                        "amazon-listing/powerbank/0.png",
+                        "amazon-listing/powerbank/1.png",
+                        "amazon-listing/powerbank/2.png",
+                        "amazon-listing/powerbank/3.png",
+                        "amazon-listing/powerbank/4.png",
+                        "amazon-listing/powerbank/5.png",
+                        "amazon-listing/powerbank/6.png"
+                    ]
                 },
                 {
                     "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
+                    "label": "Solar light",
+                    "cover": "amazon-listing/solar-light/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/solar-light/1.png",
+                        "amazon-listing/solar-light/2.png",
+                        "amazon-listing/solar-light/3.png",
+                        "amazon-listing/solar-light/4.png",
+                        "amazon-listing/solar-light/5.png",
+                        "amazon-listing/solar-light/6.png",
+                        "amazon-listing/solar-light/7.png"
+                    ]
                 },
                 {
                     "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "category": "fonts",
-            "slug": "fonts",
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Twitch Intro 1",
-                    "image": "1.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 2,
-                    "label": "Twitch Intro 2",
-                    "image": "2.png",
-                    "landing": "presentation.png"
-                },
-                {
-                    "id": 3,
-                    "label": "Twitch Intro 3",
-                    "image": "3.png",
-                    "landing": "presentation.png"
+                    "label": "Pests repeller",
+                    "cover": "amazon-listing/pests-repeller/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/pests-repeller/1.png",
+                        "amazon-listing/pests-repeller/2.png",
+                        "amazon-listing/pests-repeller/3.png",
+                        "amazon-listing/pests-repeller/4.png",
+                        "amazon-listing/pests-repeller/5.png",
+                        "amazon-listing/pests-repeller/6.png"
+                    ]
                 }
             ]
         }
