@@ -4,7 +4,6 @@
   overflow: hidden;
   margin-bottom: 100px;
 
-
   &:before {
     content: '';
     position: absolute;
@@ -97,5 +96,25 @@
 
   .slick-next {
     right: 25px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.portfolio-title {
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 190px;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
   }
 }

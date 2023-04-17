@@ -3,21 +3,27 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin: 100px auto;
+  margin: 40px auto;
 
   .tag-item {
     line-height: 1;
   }
 
-  span,
   a {
     font-size: 23px;
     text-decoration: none;
     color: #fff;
     opacity: 0.5;
+    transition: .5s ease-in-out;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
 
     &:hover {
       opacity: 1;
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px 4px $color-secondary;
+      border-color: #fff;
     }
 
     &.router-link-active {
