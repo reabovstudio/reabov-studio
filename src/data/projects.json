@@ -45,7 +45,7 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "powerbank",
+                    "label": "Powerbank",
                     "cover": "amazon-listing/powerbank/cover.png",
                     "video": "amazon-listing/powerbank/powerbank.mp4",
                     "images": [
@@ -79,6 +79,7 @@
                     "cover": "amazon-listing/pests-repeller/cover.png",
                     "video": "",
                     "images": [
+                        "amazon-listing/pests-repeller/0.png",
                         "amazon-listing/pests-repeller/1.png",
                         "amazon-listing/pests-repeller/2.png",
                         "amazon-listing/pests-repeller/3.png",
