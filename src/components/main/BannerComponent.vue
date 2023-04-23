@@ -1,23 +1,21 @@
 <template>
-  <div class="banner container">
-    <div style="max-width: 600px;">
-      <lottie :options="defaultOptions" />
+    <div class="banner container">
+        <h1>Hi,</h1>
+        <h2>welcome on</h2>
+        <div style="max-width: 600px;">
+            <lottie :options="defaultOptions"/>
+        </div>
     </div>
-    <tags-component></tags-component>
-  </div>
 </template>
 
 <script>
 import Lottie from "vue-lottie";
 import logo from "@/assets/lottie/logo.json";
-import TagsComponent from "@/components/main/tags/TagsComponent.vue";
-
 
 export default {
   name: 'BannerComponent',
   components: {
     Lottie,
-    TagsComponent
   },
   data() {
     return {

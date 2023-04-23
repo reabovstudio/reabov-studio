@@ -3,6 +3,7 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 100px;
+  height: 350px;
 
   &:before {
     content: '';
@@ -128,5 +129,65 @@
   p {
     color: #fff;
     text-align: center;
+  }
+}
+
+.projects-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 100px;
+
+  .project-category {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    transition: .5s ease-in-out;
+
+    @include for-sm {
+      width: calc(270px - 7px);
+      height: 170px;
+    }
+
+    @include for-md {
+      width: calc(240px - 9px);
+      height: 140px;
+    }
+
+    @include for-lg {
+      width: calc(320px - 9px);
+      height: 220px;
+    }
+
+    @include for-xl {
+      width: calc(380px - 9px);
+      height: 280px;
+    }
+
+    &:hover {
+      opacity: 1;
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px 4px $color-secondary;
+    }
+
+    .project-category-label {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+
+      h2 {
+        text-transform: capitalize;
+        color: #fff;
+        margin: 0;
+      }
+
+      span {
+        color: #fff;
+        opacity: 0.5;
+        margin-right: 5px;
+      }
+    }
   }
 }

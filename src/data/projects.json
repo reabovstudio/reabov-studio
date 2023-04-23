@@ -49,13 +49,7 @@
                     "cover": "amazon-listing/powerbank/cover.png",
                     "video": "amazon-listing/powerbank/powerbank.mp4",
                     "images": [
-                        "amazon-listing/powerbank/0.png",
-                        "amazon-listing/powerbank/1.png",
-                        "amazon-listing/powerbank/2.png",
-                        "amazon-listing/powerbank/3.png",
-                        "amazon-listing/powerbank/4.png",
-                        "amazon-listing/powerbank/5.png",
-                        "amazon-listing/powerbank/6.png"
+                        "amazon-listing/powerbank/1.png"
                     ]
                 },
                 {
@@ -77,15 +71,81 @@
                     "id": 3,
                     "label": "Pests repeller",
                     "cover": "amazon-listing/pests-repeller/cover.png",
+                    "video": "amazon-listing/pests-repeller/rekori_pests.mp4",
+                    "images": [
+                        "amazon-listing/pests-repeller/1.png"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "label": "Rekori keyboard",
+                    "cover": "amazon-listing/rekori-keyboard/cover.png",
                     "video": "",
                     "images": [
-                        "amazon-listing/pests-repeller/0.png",
-                        "amazon-listing/pests-repeller/1.png",
-                        "amazon-listing/pests-repeller/2.png",
-                        "amazon-listing/pests-repeller/3.png",
-                        "amazon-listing/pests-repeller/4.png",
-                        "amazon-listing/pests-repeller/5.png",
-                        "amazon-listing/pests-repeller/6.png"
+                        "amazon-listing/rekori-keyboard/1.png"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "label": "Lazy bot",
+                    "cover": "amazon-listing/lazy-bot/cover.png",
+                    "video": "amazon-listing/lazy-bot/lazybot.mp4",
+                    "images": [
+                        "amazon-listing/lazy-bot/1.png"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "label": "Lazy pro",
+                    "cover": "amazon-listing/lazy-pro/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/lazy-pro/1.png"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "label": "Lazy pro light",
+                    "cover": "amazon-listing/lazy-pro-light/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/lazy-pro-light/1.png"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "label": "MTAC",
+                    "cover": "amazon-listing/mtac/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/mtac/1.png"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "label": "Ester fruits car perfume",
+                    "cover": "amazon-listing/ester-fruits-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-fruits-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "label": "Ester men car perfume",
+                    "cover": "amazon-listing/ester-men-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-men-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "label": "Ester women car perfume",
+                    "cover": "amazon-listing/ester-women-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-women-car-perfume/1.png"
                     ]
                 }
             ]

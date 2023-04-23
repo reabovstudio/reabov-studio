@@ -5,9 +5,6 @@
                  :key="project.id">
       <span class="tag-item">#{{ project.category}}</span>
     </router-link>
-<!--    <span v-for="project in this.projects" :key="project.id">-->
-<!--      <span class="tag-item">#{{ project.category}}</span>-->
-<!--    </span>-->
   </div>
 </template>
 

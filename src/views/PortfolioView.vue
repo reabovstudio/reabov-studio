@@ -1,6 +1,11 @@
 <template>
     <div class="container">
-        <banner-component class="test"></banner-component>
+        <div class="portfolio-view-header">
+            <div style="max-width: 600px;">
+                <lottie :options="defaultOptions" />
+            </div>
+            <tags-component></tags-component>
+        </div>
         <div class="portfolio-items">
             <div class="portfolio-item shadow shadow-bottom" v-for="item in this.project.items"
                  :key="item.id"
@@ -35,16 +40,20 @@
 </template>
 
 <script>
-import BannerComponent from "@/components/main/BannerComponent.vue";
+import TagsComponent from "@/components/main/tags/TagsComponent.vue";
+import Lottie from "vue-lottie";
+import logo from "@/assets/lottie/logo.json";
 import {data} from "@/data/projects.json";
 
 export default {
     name: 'PortfolioView',
     components: {
-        BannerComponent
+      TagsComponent,
+        Lottie,
     },
     data() {
         return {
+            defaultOptions: { animationData: logo, loop: true },
             dialogVisible: false,
             dialog: {
                 visible: false,
