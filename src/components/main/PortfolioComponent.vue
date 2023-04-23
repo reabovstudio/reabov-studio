@@ -2,8 +2,6 @@
     <div>
         <div class="container portfolio-title">
             <h1>Portfolio</h1>
-            <p>Click and enjoy</p>
-            <tags-component></tags-component>
         </div>
         <div class="portfolio ">
             <slider v-bind="options">
@@ -32,21 +30,30 @@
                     <img :src="getImgUrl('reabovstudio_2.gif')">
                 </div>
             </slider>
-            <p>Scroll and enjoy</p>
+        </div>
+        <div class="container">
+            <div class="projects-categories">
+                <router-link class="project-category" :to="{name: 'PortfolioView', params: { id: project.id, slug: project.slug }}"
+                             v-for="project in this.projects"
+                             :key="project.id">
+                    <div class="project-category-label">
+                        <h2>{{project.category}}</h2>
+                    </div>
+                </router-link>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-import TagsComponent from "@/components/main/tags/TagsComponent.vue";
 import Slider from 'vue-slick-carousel';
 import 'vue-slick-carousel/dist/vue-slick-carousel.css';
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import { data } from "@/data/projects.json";
 
 export default {
     name: 'PortfolioComponent',
     components: {
-        TagsComponent,
         Slider
     },
     data() {
@@ -71,7 +78,8 @@ export default {
                         }
                     }
                 ]
-            }
+            },
+            projects: data,
         }
     },
     methods: {
