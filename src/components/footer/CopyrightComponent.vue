@@ -1,11 +1,12 @@
 <template>
-  <div class="copyright">
-    <span>Reabov © 2023 </span>
-  </div>
+    <div class="copyright">
+        <span>REABOV STUDIO © 2023 </span>
+        <span>Developed by | DIONIS PASCARU</span>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'CopyrightComponent'
+    name: 'CopyrightComponent'
 }
 </script>

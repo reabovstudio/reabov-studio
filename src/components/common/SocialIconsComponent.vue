@@ -11,11 +11,6 @@
 <!--      </a>-->
 <!--    </div>-->
     <div class="social-icon">
-      <a href="https://www.behance.net/reabovstudio" target="_blank">
-        <i class="icon-behance"></i>
-      </a>
-    </div>
-    <div class="social-icon">
       <a href="https://www.youtube.com/channel/UCwUVCAs7J2H4RQjAIHLe7MA" target="_blank">
         <i class="icon-youtube"></i>
       </a>

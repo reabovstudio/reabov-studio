@@ -2,7 +2,7 @@
     <div class="banner container">
         <h1>Hi,</h1>
         <h2>welcome on</h2>
-        <div style="max-width: 600px;">
+        <div class="reabov-studio--lottie" style="max-width: 600px;">
             <lottie :options="defaultOptions"/>
         </div>
     </div>
