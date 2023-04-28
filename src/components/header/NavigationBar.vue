@@ -4,7 +4,9 @@
             <!-- descktop -->
             <div class="navigation-bar" v-if="!isMobile">
                 <div class="logo">
-                    <img src="@/assets/logo.svg" alt="logo">
+                    <router-link :to="{name: 'HomeView'}">
+                        <img src="@/assets/logo.svg" alt="logo">
+                    </router-link>
                 </div>
                 <el-menu :default-active="activeIndex"
                          class="navigation-bar-menu"

@@ -62,8 +62,6 @@
 
     .about-description {
       padding: 20px;
-      display: flex;
-      align-items: center;
 
       @include for-sm {
         padding: 50px 50px 0;
@@ -75,13 +73,14 @@
       }
 
       p {
-        font-size: 14px;
+        font-size: 12px;
         overflow-wrap: break-word;
         color: #fff;
-        margin: 0;
+        margin: 0 0 10px;
         text-align: center;
 
         @include for-sm {
+          font-size: 14px;
           text-align: start;
         }
       }

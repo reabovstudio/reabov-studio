@@ -12,16 +12,20 @@
             <div class="about-description">
                 <p>
                     Hey! My name is Alexandru and I am a Designer :)
-                    After graduating Fine Arts Studies 6 years ago, I have started my own journey as a Designer.
+                </p>
+                <p>
+                    After graduating Fine Arts Studies, I have started my own journey as a Designer.
                     From jewelry design I gradually headed towards graphic design and later towards Motion Graphic
                     Design, Animations, Sound Design, Digital Art and Content Creation.
+                </p>
+                <p>
                     I love what I am doing! Each project is a special one for me and in the creative process I try to
                     live the
                     emotions that I want to express to the audience. People are looking for emotions and are conquered
                     by
-                    them every day. I believe that “Art in everything”, as every moment in life has its own emotions
-                    like
-                    every brand or product, that I try to express it through imagination and creativity.
+                    them every day.
+                </p>
+                <p>
                     My name is Alexandru and I am a Designer ;)
                 </p>
             </div>

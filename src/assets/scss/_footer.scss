@@ -52,8 +52,11 @@
     padding: 50px 20px;
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
 
     span {
+        text-align: center;
         color: #fff;
         font-size: 16px;
     }

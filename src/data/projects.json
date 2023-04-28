@@ -44,6 +44,33 @@
             "slug": "amazon-listing",
             "items": [
                 {
+                    "id": 11,
+                    "label": "Ester women",
+                    "cover": "amazon-listing/ester-women-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-women-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "label": "Ester men",
+                    "cover": "amazon-listing/ester-men-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-men-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "label": "Ester fruits",
+                    "cover": "amazon-listing/ester-fruits-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-listing/ester-fruits-car-perfume/1.png"
+                    ]
+                },
+                {
                     "id": 1,
                     "label": "Powerbank",
                     "cover": "amazon-listing/powerbank/cover.png",
@@ -54,30 +81,6 @@
                 },
                 {
                     "id": 2,
-                    "label": "Solar light",
-                    "cover": "amazon-listing/solar-light/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/solar-light/1.png",
-                        "amazon-listing/solar-light/2.png",
-                        "amazon-listing/solar-light/3.png",
-                        "amazon-listing/solar-light/4.png",
-                        "amazon-listing/solar-light/5.png",
-                        "amazon-listing/solar-light/6.png",
-                        "amazon-listing/solar-light/7.png"
-                    ]
-                },
-                {
-                    "id": 3,
-                    "label": "Pests repeller",
-                    "cover": "amazon-listing/pests-repeller/cover.png",
-                    "video": "amazon-listing/pests-repeller/rekori_pests.mp4",
-                    "images": [
-                        "amazon-listing/pests-repeller/1.png"
-                    ]
-                },
-                {
-                    "id": 4,
                     "label": "Rekori keyboard",
                     "cover": "amazon-listing/rekori-keyboard/cover.png",
                     "video": "",
@@ -86,7 +89,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 3,
                     "label": "Lazy bot",
                     "cover": "amazon-listing/lazy-bot/cover.png",
                     "video": "amazon-listing/lazy-bot/lazybot.mp4",
@@ -95,21 +98,12 @@
                     ]
                 },
                 {
-                    "id": 6,
-                    "label": "Lazy pro",
-                    "cover": "amazon-listing/lazy-pro/cover.png",
-                    "video": "",
+                    "id": 5,
+                    "label": "Pests repeller",
+                    "cover": "amazon-listing/pests-repeller/cover.png",
+                    "video": "amazon-listing/pests-repeller/rekori_pests.mp4",
                     "images": [
-                        "amazon-listing/lazy-pro/1.png"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "label": "Lazy pro light",
-                    "cover": "amazon-listing/lazy-pro-light/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/lazy-pro-light/1.png"
+                        "amazon-listing/pests-repeller/1.png"
                     ]
                 },
                 {
@@ -122,31 +116,56 @@
                     ]
                 },
                 {
-                    "id": 9,
-                    "label": "Ester fruits car perfume",
-                    "cover": "amazon-listing/ester-fruits-car-perfume/cover.png",
+                    "id": 12,
+                    "label": "Rekori keyboard",
+                    "cover": "amazon-listing/rekori-keyboard-model/cover.png",
                     "video": "",
                     "images": [
-                        "amazon-listing/ester-fruits-car-perfume/1.png"
+                        "amazon-listing/rekori-keyboard-model/1.png",
+                        "amazon-listing/rekori-keyboard-model/2.png",
+                        "amazon-listing/rekori-keyboard-model/3.png",
+                        "amazon-listing/rekori-keyboard-model/4.png",
+                        "amazon-listing/rekori-keyboard-model/5.png"
                     ]
                 },
                 {
-                    "id": 10,
-                    "label": "Ester men car perfume",
-                    "cover": "amazon-listing/ester-men-car-perfume/cover.png",
+                    "id": 7,
+                    "label": "Lazy pro light",
+                    "cover": "amazon-listing/lazy-pro-light/cover.png",
                     "video": "",
                     "images": [
-                        "amazon-listing/ester-men-car-perfume/1.png"
+                        "amazon-listing/lazy-pro-light/1.png"
                     ]
                 },
                 {
-                    "id": 11,
-                    "label": "Ester women car perfume",
-                    "cover": "amazon-listing/ester-women-car-perfume/cover.png",
+                    "id": 6,
+                    "label": "Lazy pro",
+                    "cover": "amazon-listing/lazy-pro/cover.png",
                     "video": "",
                     "images": [
-                        "amazon-listing/ester-women-car-perfume/1.png"
+                        "amazon-listing/lazy-pro/1.png"
                     ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "motion graphics",
+            "slug": "motion-graphics",
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Powerbank",
+                    "cover": "motion-graphics/powerbank/cover.png",
+                    "video": "motion-graphics/powerbank/powerbank.mp4",
+                    "images": []
+                },
+                {
+                    "id": 2,
+                    "label": "Pests repeller",
+                    "cover": "motion-graphics/pests-repeller/cover.png",
+                    "video": "motion-graphics/pests-repeller/video.mp4",
+                    "images": []
                 }
             ]
         }
