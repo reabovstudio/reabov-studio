@@ -8,8 +8,13 @@ export default [
         component: HomeView
     },
     {
+        path: '/portfolio/:slug',
+        name: 'PortfolioView',
+        component: PortfolioView,
+    },
+    {
         path: '/portfolio/:id/:slug',
         name: 'PortfolioView',
-        component: PortfolioView
+        component: PortfolioView,
     }
 ]

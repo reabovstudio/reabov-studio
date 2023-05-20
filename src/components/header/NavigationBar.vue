@@ -3,23 +3,29 @@
         <div class="shadow">
             <!-- descktop -->
             <div class="navigation-bar" v-if="!isMobile">
-                <div class="logo">
-                    <router-link :to="{name: 'HomeView'}">
-                        <img src="@/assets/logo.svg" alt="logo">
-                    </router-link>
+                <div class="navigation-bar-column column-start">
+                    <div class="logo">
+                        <router-link :to="{name: 'HomeView'}">
+                            <img src="@/assets/logo.svg" alt="logo">
+                        </router-link>
+                    </div>
                 </div>
-                <el-menu :default-active="activeIndex"
-                         class="navigation-bar-menu"
-                         @select="handleSelect"
-                         background-color="transparent">
-                    <el-menu-item index="1" @click="goToSection('AboutRef')">about</el-menu-item>
-                    <el-menu-item index="2" @click="goToSection('PortfolioRef', 400)">portfolio</el-menu-item>
-                    <theme-switcher-component></theme-switcher-component>
-                    <!--          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>-->
-                    <el-menu-item index="3" @click="goToSection('SocialRef')">social</el-menu-item>
-                    <el-menu-item index="5" @click="goToSection('ContactRef')">contact</el-menu-item>
-                </el-menu>
-                <social-icons-component></social-icons-component>
+                <div class="navigation-bar-column column-center">
+                    <el-menu :default-active="activeIndex"
+                             class="navigation-bar-menu"
+                             @select="handleSelect"
+                             background-color="transparent">
+                        <el-menu-item index="1" @click="goToSection('AboutRef')">about</el-menu-item>
+                        <el-menu-item index="2" @click="goToSection('PortfolioRef', 400)">portfolio</el-menu-item>
+                        <theme-switcher-component></theme-switcher-component>
+                        <!--          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>-->
+                        <el-menu-item index="3" @click="goToSection('SocialRef')">social</el-menu-item>
+                        <el-menu-item index="5" @click="goToSection('ContactRef')">contact</el-menu-item>
+                    </el-menu>
+                </div>
+                <div class="navigation-bar-column column-end">
+                    <social-icons-component></social-icons-component>
+                </div>
             </div>
         </div>
 
@@ -67,7 +73,7 @@ export default {
     },
     computed: {
         isMobile() {
-            return this.windowWidth < 768;
+            return this.windowWidth < 992;
         },
     },
     mounted() {

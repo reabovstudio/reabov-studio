@@ -3,6 +3,8 @@
         {
             "id": 1,
             "category": "identities",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": ["brandbook design", "rebranding", "brand identity"],
             "slug": "identities",
             "items": [
                 {
@@ -41,10 +43,12 @@
         {
             "id": 2,
             "category": "amazon listing",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": [],
             "slug": "amazon-listing",
             "items": [
                 {
-                    "id": 11,
+                    "id": 3,
                     "label": "Ester women",
                     "cover": "amazon-listing/ester-women-car-perfume/cover.png",
                     "video": "",
@@ -53,7 +57,7 @@
                     ]
                 },
                 {
-                    "id": 10,
+                    "id": 4,
                     "label": "Ester men",
                     "cover": "amazon-listing/ester-men-car-perfume/cover.png",
                     "video": "",
@@ -62,7 +66,7 @@
                     ]
                 },
                 {
-                    "id": 9,
+                    "id": 5,
                     "label": "Ester fruits",
                     "cover": "amazon-listing/ester-fruits-car-perfume/cover.png",
                     "video": "",
@@ -71,7 +75,7 @@
                     ]
                 },
                 {
-                    "id": 1,
+                    "id": 6,
                     "label": "Powerbank",
                     "cover": "amazon-listing/powerbank/cover.png",
                     "video": "amazon-listing/powerbank/powerbank.mp4",
@@ -80,7 +84,7 @@
                     ]
                 },
                 {
-                    "id": 2,
+                    "id": 7,
                     "label": "Rekori keyboard",
                     "cover": "amazon-listing/rekori-keyboard/cover.png",
                     "video": "",
@@ -89,7 +93,7 @@
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 8,
                     "label": "Lazy bot",
                     "cover": "amazon-listing/lazy-bot/cover.png",
                     "video": "amazon-listing/lazy-bot/lazybot.mp4",
@@ -98,7 +102,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 9,
                     "label": "Pests repeller",
                     "cover": "amazon-listing/pests-repeller/cover.png",
                     "video": "amazon-listing/pests-repeller/rekori_pests.mp4",
@@ -107,7 +111,7 @@
                     ]
                 },
                 {
-                    "id": 8,
+                    "id": 10,
                     "label": "MTAC",
                     "cover": "amazon-listing/mtac/cover.png",
                     "video": "",
@@ -116,7 +120,7 @@
                     ]
                 },
                 {
-                    "id": 12,
+                    "id": 11,
                     "label": "Rekori keyboard",
                     "cover": "amazon-listing/rekori-keyboard-model/cover.png",
                     "video": "",
@@ -129,7 +133,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 12,
                     "label": "Lazy pro light",
                     "cover": "amazon-listing/lazy-pro-light/cover.png",
                     "video": "",
@@ -138,7 +142,7 @@
                     ]
                 },
                 {
-                    "id": 6,
+                    "id": 13,
                     "label": "Lazy pro",
                     "cover": "amazon-listing/lazy-pro/cover.png",
                     "video": "",
@@ -151,23 +155,73 @@
         {
             "id": 3,
             "category": "motion graphics",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": ["commercials", "explainers", "product presentation"],
             "slug": "motion-graphics",
             "items": [
                 {
-                    "id": 1,
+                    "id": 14,
                     "label": "Powerbank",
                     "cover": "motion-graphics/powerbank/cover.png",
                     "video": "motion-graphics/powerbank/powerbank.mp4",
                     "images": []
                 },
                 {
-                    "id": 2,
+                    "id": 15,
                     "label": "Pests repeller",
                     "cover": "motion-graphics/pests-repeller/cover.png",
                     "video": "motion-graphics/pests-repeller/video.mp4",
                     "images": []
                 }
             ]
+        },
+        {
+            "id": 4,
+            "category": "logo",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": ["logo design", "logo concept", "logo intro"],
+            "slug": "logo",
+            "items": []
+        },
+        {
+            "id": 5,
+            "category": "animation",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": ["2D", "3D", "frame by frame"],
+            "slug": "animation",
+            "items": []
+        },
+        {
+            "id": 6,
+            "category": "UI/UX",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": [],
+            "slug": "ui-ux",
+            "items": []
+        },
+        {
+            "id": 7,
+            "category": "Product Design",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": [],
+            "slug": "product-design",
+            "items": []
+        },
+        {
+            "id": 8,
+            "category": "Jewelry Design",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": [],
+            "slug": "jewelry-design",
+            "items": []
+        },
+        {
+            "id": 9,
+            "category": "Fonts",
+            "cover": "portfolio/amazon-listing/amazon.png",
+            "tags": [],
+            "slug": "fonts",
+            "items": []
         }
     ]
 }

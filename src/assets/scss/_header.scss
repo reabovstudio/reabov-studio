@@ -1,8 +1,28 @@
 .navigation-bar {
+  width: calc(100% - 40px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+
+  .navigation-bar-column {
+    width: 33.3%;
+  }
+
+  .column-start {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .column-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .column-end {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .logo {
     max-width: 200px;
@@ -32,7 +52,7 @@
       line-height: normal;
       font-size: 1rem;
       color: #fff;
-      padding: 0 20px!important;
+      padding: 0 15px!important;
 
       &.is-active {
         border-color: transparent;
@@ -68,6 +88,7 @@
     top: -500px;
 
     .el-menu-item {
+      height: 34px;
       text-align: center;
       font-size: 0;
       opacity: 0;
