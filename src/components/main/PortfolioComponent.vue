@@ -1,44 +1,14 @@
 <template>
     <div>
         <div class="container portfolio-title">
-            <h1>Portfolio</h1>
-        </div>
-        <div class="portfolio ">
-            <slider v-bind="options">
-                <div>
-                    <img :src="getImgUrl('reabovstudio_10.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_1.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_3.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_6.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_8.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_9.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_7.gif')">
-                </div>
-                <div>
-                    <img :src="getImgUrl('reabovstudio_2.gif')">
-                </div>
-            </slider>
-        </div>
-        <div class="container">
-            <div class="projects-categories">
-                <router-link class="project-category" :to="{name: 'PortfolioView', params: { id: project.id, slug: project.slug }}"
-                             v-for="project in this.projects"
-                             :key="project.id">
-                    <div class="project-category-label">
-                        <h2>{{project.category}}</h2>
-                    </div>
+            <div class="portfolio-video">
+                <video autoplay loop muted>
+                    <source :src="require('@/assets/portfolio.mp4')" type="video/mp4">
+                </video>
+            </div>
+            <div class="portfolio-explore-btn">
+                <router-link :to="{ name: 'PortfolioView', params: { slug: 'all' }}">
+                    <h2>explore</h2>
                 </router-link>
             </div>
         </div>
@@ -46,16 +16,12 @@
 </template>
 
 <script>
-import Slider from 'vue-slick-carousel';
 import 'vue-slick-carousel/dist/vue-slick-carousel.css';
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import { data } from "@/data/projects.json";
+import {data} from "@/data/projects.json";
 
 export default {
     name: 'PortfolioComponent',
-    components: {
-        Slider
-    },
     data() {
         return {
             options: {

@@ -7,7 +7,7 @@
             <tags-component></tags-component>
         </div>
         <div class="portfolio-items">
-            <div class="portfolio-item shadow shadow-bottom" v-for="item in this.project.items"
+            <div class="portfolio-item shadow shadow-bottom" v-for="item in this.projects"
                  :key="item.id"
                  @click="openProject(item)">
                 <div class="portfolio-item-image">
@@ -16,6 +16,9 @@
                 <div class="portfolio-item-label">
                     <h2>{{ item.label }}</h2>
                     <h5>Alexandru Reabov</h5>
+                    <div class="project-tags">
+                        <span>#tag</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,6 +56,7 @@ export default {
     },
     data() {
         return {
+            items: [],
             defaultOptions: { animationData: logo, loop: true },
             dialogVisible: false,
             dialog: {
@@ -64,8 +68,16 @@ export default {
         }
     },
     computed: {
-        project() {
-            return data.find(item => item.id == this.$route.params.id);
+        projects() {
+            if (this.$route.params.id) {
+                return data.find(item => item.id == this.$route.params.id).items
+            } else {
+                data.forEach((category) => {
+                    this.items = [...this.items, ...category.items];
+                })
+
+                return this.items;
+            }
         }
     },
     methods: {
