@@ -90,8 +90,7 @@ export default {
       if (fileName !== '') {
         return require(`@/assets/images/portfolio/${fileName}`);
       }
-    }
-    ,
+    },
     openProject(item) {
       this.dialogVisible = true;
       this.dialog.title = item.label;
