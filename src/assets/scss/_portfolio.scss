@@ -1,25 +1,6 @@
 .portfolio-title {
   margin-bottom: 70px;
 
-  h1 {
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    font-size: 74px;
-
-    @include for-sm {
-      font-size: 100px;
-    }
-
-    @include for-md {
-      font-size: 160px;
-    }
-
-    @include for-xl {
-      font-size: 190px;
-    }
-  }
-
   a {
     text-decoration: none;
     width: fit-content;
@@ -36,19 +17,17 @@
       font-size: 34px;
     }
   }
-
-  p {
-    color: #fff;
-    text-align: center;
-  }
 }
 
-.projects-categories {
+.portfolio-video {
+  margin: 50px auto 50px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 100px;
+  max-width: 600px;
+
+  img {
+    width: 100%;
+  }
 }
 
 .portfolio-explore-btn {

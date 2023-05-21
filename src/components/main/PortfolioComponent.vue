@@ -2,9 +2,7 @@
     <div>
         <div class="container portfolio-title">
             <div class="portfolio-video">
-                <video autoplay loop muted>
-                    <source :src="require('@/assets/portfolio.mp4')" type="video/mp4">
-                </video>
+                <img :src="require('@/assets/portfolio.gif')" />
             </div>
             <div class="portfolio-explore-btn">
                 <router-link :to="{ name: 'PortfolioView', params: { slug: 'all' }}">
