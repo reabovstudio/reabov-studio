@@ -1,7 +1,7 @@
 <template>
     <div class="tags">
         <router-link :to="{name: 'PortfolioView', params: { slug: 'all' }}">
-            <span class="tag-item">ALL</span>
+            <span class="tag-item">#all</span>
         </router-link>
         <router-link :to="{name: 'PortfolioView', params: { id: project.id, slug: project.slug }}"
                      v-for="project in this.projects"
