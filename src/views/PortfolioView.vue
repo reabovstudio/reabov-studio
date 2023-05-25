@@ -6,6 +6,7 @@
       </div>
       <tags-component></tags-component>
     </div>
+    <loader-component v-if="loading"></loader-component>
     <div class="portfolio-items">
       <div class="portfolio-item shadow shadow-bottom" v-for="item in this.projects"
            :key="item.id"
@@ -28,7 +29,7 @@
                :visible.sync="dialogVisible"
                :destroy-on-close="true"
                custom-class="portfolio-modal shadow">
-      <video autoplay loop v-if="this.dialog.video" :muted="!dialogVisible">
+      <video autoplay loop v-if="this.dialog.video && dialogVisible" :muted="!dialogVisible">
         <source :src="getImgUrl(this.dialog.video)" type="video/mp4">
       </video>
       <div v-for="(image, index) in this.dialog.images" :key="index">
@@ -43,6 +44,7 @@
 </template>
 
 <script>
+import LoaderComponent from "@/components/main/LoaderComponent.vue";
 import TagsComponent from "@/components/main/tags/TagsComponent.vue";
 import Lottie from "vue-lottie";
 import logo from "@/assets/lottie/logo.json";
@@ -51,12 +53,14 @@ import {data} from "@/data/projects.json";
 export default {
   name: 'PortfolioView',
   components: {
+    LoaderComponent,
     TagsComponent,
     Lottie,
   },
   data() {
     return {
       items: [],
+      loading: true,
       defaultOptions: {animationData: logo, loop: true},
       dialogVisible: false,
       dialog: {
@@ -84,6 +88,10 @@ export default {
   },
   mounted() {
     window.scrollTo(0, 0);
+
+    setTimeout(() => {
+      this.loading = false;
+    }, 1500);
   },
   methods: {
     getImgUrl(fileName) {
