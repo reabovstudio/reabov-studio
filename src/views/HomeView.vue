@@ -1,6 +1,6 @@
 <template>
   <div>
-    <banner-component class="section-vh"></banner-component>
+    <banner-component id="BannerRef" class="section-vh"></banner-component>
     <about-component id="AboutRef"></about-component>
     <portfolio-component id="PortfolioRef"></portfolio-component>
 <!--    @note: Soon will be reverted-->
