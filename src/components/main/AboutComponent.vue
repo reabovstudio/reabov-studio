@@ -34,7 +34,7 @@
                     <lottie :options="defaultOptions"/>
                 </div>
                 <div class="about-video">
-                    <img :src="require(`@/assets/about-reabov-studio.gif`)">
+                    <img :src="require(`@/assets/ReabovStudio.gif`)">
                 </div>
             </div>
         </div>
