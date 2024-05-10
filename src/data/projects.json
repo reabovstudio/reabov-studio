@@ -2,160 +2,168 @@
     "data": [
         {
             "id": 1,
-            "category": "identities",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "logo",
+            "cover": "portfolio/amazon-content/amazon.png",
+            "tags": ["logo design", "logo concept", "logo intro"],
+            "slug": "logo",
+            "items": []
+        },
+        {
+            "id": 2,
+            "category": "branding",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": ["brandbook design", "rebranding", "brand identity"],
-            "slug": "identities",
+            "slug": "branding",
             "items": [
                 {
                     "id": 1,
                     "label": "Teh km zero",
-                    "cover": "identities/teh-km-zero/1.jpg",
+                    "cover": "branding/teh-km-zero/1.jpg",
                     "video": "",
                     "images": [
-                        "identities/teh-km-zero/1.jpg",
-                        "identities/teh-km-zero/2.jpg",
-                        "identities/teh-km-zero/3.jpg",
-                        "identities/teh-km-zero/4.jpg",
-                        "identities/teh-km-zero/5.jpg",
-                        "identities/teh-km-zero/6.jpg",
-                        "identities/teh-km-zero/7.jpg"
+                        "branding/teh-km-zero/1.jpg",
+                        "branding/teh-km-zero/2.jpg",
+                        "branding/teh-km-zero/3.jpg",
+                        "branding/teh-km-zero/4.jpg",
+                        "branding/teh-km-zero/5.jpg",
+                        "branding/teh-km-zero/6.jpg",
+                        "branding/teh-km-zero/7.jpg"
                     ]
                 },
                 {
                     "id": 2,
                     "label": "Victor Teslaru",
-                    "cover": "identities/victor-teslaru/B1.png",
+                    "cover": "branding/victor-teslaru/B1.png",
                     "video": "",
                     "images": [
-                        "identities/victor-teslaru/B1.png",
-                        "identities/victor-teslaru/B2.png",
-                        "identities/victor-teslaru/B3.png",
-                        "identities/victor-teslaru/B4.png",
-                        "identities/victor-teslaru/B5.png",
-                        "identities/victor-teslaru/B6.png",
-                        "identities/victor-teslaru/B7.png",
-                        "identities/victor-teslaru/B8.png"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "category": "amazon listing",
-            "cover": "portfolio/amazon-listing/amazon.png",
-            "tags": [],
-            "slug": "amazon-listing",
-            "items": [
-                {
-                    "id": 3,
-                    "label": "Ester women",
-                    "cover": "amazon-listing/ester-women-car-perfume/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/ester-women-car-perfume/1.png"
-                    ]
-                },
-                {
-                    "id": 4,
-                    "label": "Ester men",
-                    "cover": "amazon-listing/ester-men-car-perfume/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/ester-men-car-perfume/1.png"
-                    ]
-                },
-                {
-                    "id": 5,
-                    "label": "Ester fruits",
-                    "cover": "amazon-listing/ester-fruits-car-perfume/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/ester-fruits-car-perfume/1.png"
-                    ]
-                },
-                {
-                    "id": 6,
-                    "label": "Powerbank",
-                    "cover": "amazon-listing/powerbank/cover.png",
-                    "video": "amazon-listing/powerbank/powerbank.mp4",
-                    "images": [
-                        "amazon-listing/powerbank/1.png"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "label": "Rekori keyboard",
-                    "cover": "amazon-listing/rekori-keyboard/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/rekori-keyboard/1.png"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "label": "Lazy bot",
-                    "cover": "amazon-listing/lazy-bot/cover.png",
-                    "video": "amazon-listing/lazy-bot/lazybot.mp4",
-                    "images": [
-                        "amazon-listing/lazy-bot/1.png"
-                    ]
-                },
-                {
-                    "id": 9,
-                    "label": "Pests repeller",
-                    "cover": "amazon-listing/pests-repeller/cover.png",
-                    "video": "amazon-listing/pests-repeller/rekori_pests.mp4",
-                    "images": [
-                        "amazon-listing/pests-repeller/1.png"
-                    ]
-                },
-                {
-                    "id": 10,
-                    "label": "MTAC",
-                    "cover": "amazon-listing/mtac/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/mtac/1.png"
-                    ]
-                },
-                {
-                    "id": 11,
-                    "label": "Rekori keyboard",
-                    "cover": "amazon-listing/rekori-keyboard-model/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/rekori-keyboard-model/1.png",
-                        "amazon-listing/rekori-keyboard-model/2.png",
-                        "amazon-listing/rekori-keyboard-model/3.png",
-                        "amazon-listing/rekori-keyboard-model/4.png",
-                        "amazon-listing/rekori-keyboard-model/5.png"
-                    ]
-                },
-                {
-                    "id": 12,
-                    "label": "Lazy pro light",
-                    "cover": "amazon-listing/lazy-pro-light/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/lazy-pro-light/1.png"
-                    ]
-                },
-                {
-                    "id": 13,
-                    "label": "Lazy pro",
-                    "cover": "amazon-listing/lazy-pro/cover.png",
-                    "video": "",
-                    "images": [
-                        "amazon-listing/lazy-pro/1.png"
+                        "branding/victor-teslaru/B1.png",
+                        "branding/victor-teslaru/B2.png",
+                        "branding/victor-teslaru/B3.png",
+                        "branding/victor-teslaru/B4.png",
+                        "branding/victor-teslaru/B5.png",
+                        "branding/victor-teslaru/B6.png",
+                        "branding/victor-teslaru/B7.png",
+                        "branding/victor-teslaru/B8.png"
                     ]
                 }
             ]
         },
         {
             "id": 3,
+            "category": "amazon content",
+            "cover": "portfolio/amazon-content/amazon.png",
+            "tags": [],
+            "slug": "amazon-content",
+            "items": [
+                {
+                    "id": 3,
+                    "label": "Ester women",
+                    "cover": "amazon-content/ester-women-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/ester-women-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "label": "Ester men",
+                    "cover": "amazon-content/ester-men-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/ester-men-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "label": "Ester fruits",
+                    "cover": "amazon-content/ester-fruits-car-perfume/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/ester-fruits-car-perfume/1.png"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "label": "Powerbank",
+                    "cover": "amazon-content/powerbank/cover.png",
+                    "video": "amazon-content/powerbank/powerbank.mp4",
+                    "images": [
+                        "amazon-content/powerbank/1.png"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "label": "Rekori keyboard",
+                    "cover": "amazon-content/rekori-keyboard/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/rekori-keyboard/1.png"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "label": "Lazy bot",
+                    "cover": "amazon-content/lazy-bot/cover.png",
+                    "video": "amazon-content/lazy-bot/lazybot.mp4",
+                    "images": [
+                        "amazon-content/lazy-bot/1.png"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "label": "Pests repeller",
+                    "cover": "amazon-content/pests-repeller/cover.png",
+                    "video": "amazon-content/pests-repeller/rekori_pests.mp4",
+                    "images": [
+                        "amazon-content/pests-repeller/1.png"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "label": "MTAC",
+                    "cover": "amazon-content/mtac/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/mtac/1.png"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "label": "Rekori keyboard",
+                    "cover": "amazon-content/rekori-keyboard-model/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/rekori-keyboard-model/1.png",
+                        "amazon-content/rekori-keyboard-model/2.png",
+                        "amazon-content/rekori-keyboard-model/3.png",
+                        "amazon-content/rekori-keyboard-model/4.png",
+                        "amazon-content/rekori-keyboard-model/5.png"
+                    ]
+                },
+                {
+                    "id": 12,
+                    "label": "Lazy pro light",
+                    "cover": "amazon-content/lazy-pro-light/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/lazy-pro-light/1.png"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "label": "Lazy pro",
+                    "cover": "amazon-content/lazy-pro/cover.png",
+                    "video": "",
+                    "images": [
+                        "amazon-content/lazy-pro/1.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
             "category": "motion graphics",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": ["commercials", "explainers", "product presentation"],
             "slug": "motion-graphics",
             "items": [
@@ -175,52 +183,53 @@
                 }
             ]
         },
-        {
-            "id": 4,
-            "category": "logo",
-            "cover": "portfolio/amazon-listing/amazon.png",
-            "tags": ["logo design", "logo concept", "logo intro"],
-            "slug": "logo",
-            "items": []
-        },
+
         {
             "id": 5,
-            "category": "animation",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "merch design",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": ["2D", "3D", "frame by frame"],
-            "slug": "animation",
+            "slug": "merch-design",
             "items": []
         },
         {
             "id": 6,
-            "category": "UI/UX",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "ui/ux",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": [],
             "slug": "ui-ux",
             "items": []
         },
         {
             "id": 7,
-            "category": "Product Design",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "product design",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": [],
             "slug": "product-design",
             "items": []
         },
         {
             "id": 8,
-            "category": "Jewelry Design",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "jewelry design",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": [],
             "slug": "jewelry-design",
             "items": []
         },
         {
             "id": 9,
-            "category": "Fonts",
-            "cover": "portfolio/amazon-listing/amazon.png",
+            "category": "lottie animation",
+            "cover": "portfolio/amazon-content/amazon.png",
             "tags": [],
-            "slug": "fonts",
+            "slug": "lottie-animation",
+            "items": []
+        },
+        {
+            "id": 10,
+            "category": "others",
+            "cover": "portfolio/amazon-content/amazon.png",
+            "tags": [],
+            "slug": "others",
             "items": []
         }
     ]

@@ -1,0 +1,22 @@
+.collapse {
+  .el-collapse {
+    border: none;
+  }
+
+  .el-collapse-item__header {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+  }
+
+  .el-collapse-item__content {
+    font-size: 16px;
+  }
+
+  .el-collapse-item__wrap {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+  }
+}
