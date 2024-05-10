@@ -1,0 +1,142 @@
+.membership {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.membership-block {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border-radius: 30px;
+  height: fit-content;
+  overflow: hidden;
+
+  &-image {
+    margin: -50px -30px 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @include for-lg {
+    width: calc(33.3% - 90px);
+  }
+
+  &.move-down {
+    @include for-lg {
+      margin-top: 100px;
+    }
+  }
+
+  &.green {
+    border: 3px solid #a0fa00;
+
+    .membership-block-price {
+      color: #a0fa00;
+    }
+  }
+
+  &.yellow {
+    border: 3px solid #ffcc00;
+
+    .membership-block-price {
+      color: #ffcc00;
+    }
+  }
+
+  &.blue {
+    border: 3px solid #fc029d;
+
+    .membership-block-price {
+      color: #fc029d;
+    }
+  }
+
+  &-title {
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 16px;
+    }
+  }
+
+  &-info {
+    margin-bottom: 50px;
+
+    ul {
+      list-style-type: none;
+      text-align: center;
+      padding: 0;
+
+      li {
+        color: #fff;
+
+        &.muted-text {
+          color: #a0fa00;
+        }
+      }
+    }
+  }
+
+  &-price {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+
+    &-number {
+      font-size: 64px;
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    &-text {
+      font-size: 34px;
+      font-weight: 800;
+      font-style: italic;
+    }
+  }
+}
+
+.title-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  position: relative;
+  background: #ffcc00;
+  margin: auto;
+}
+.title-shape:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 12px solid black;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.title-shape:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 12px solid black;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
