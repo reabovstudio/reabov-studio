@@ -1,6 +1,20 @@
 .collapse {
+  h2 {
+    font-size: 50px;
+    font-style: italic;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto 30px;
+
+    @include for-lg {
+      font-size: 80px;
+    }
+  }
+
   .el-collapse {
     border: none;
+    margin: 50px 0;
   }
 
   .el-collapse-item__header {

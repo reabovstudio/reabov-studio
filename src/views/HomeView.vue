@@ -4,9 +4,8 @@
     <about-component id="AboutRef"></about-component>
     <portfolio-component id="PortfolioRef"></portfolio-component>
     <membership-component></membership-component>
-<!--    @note: Soon will be reverted-->
-<!--    <stock-component id="StockRef"></stock-component>-->
 <!--    <collapse-component></collapse-component>-->
+<!--    <stock-component id="StockRef"></stock-component>-->
     <social-media-component id="SocialRef"></social-media-component>
     <contact-component id="ContactRef"></contact-component>
   </div>
