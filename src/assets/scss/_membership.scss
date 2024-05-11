@@ -4,17 +4,75 @@
   gap: 30px;
   flex-wrap: wrap;
   margin-bottom: 50px;
+
+  h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+    font-style: italic;
+  }
 }
 
 .membership-item {
+  position: relative;
   width: 100%;
   max-width: 300px;
   margin: auto;
+
+  &:hover {
+    .green {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 17px 0 #a0fa00;
+      transition: all 0.5s;
+    }
+
+    .yellow {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 17px 0 #ffdd00;
+      transition: all 0.5s;
+    }
+
+    .blue {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 17px 0 #fc029d;
+      transition: all 0.5s;
+    }
+
+    .hover-line {
+      opacity: 1;
+      transition: opacity 1s;
+    }
+  }
 
   @include for-lg {
     width: calc(33.3% - 20px);
     max-width: unset;
     margin: unset;
+  }
+
+  &.move-down {
+    @include for-lg {
+      margin-top: 100px;
+    }
+  }
+
+  .hover-line {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    opacity: 0;
+    transition: opacity 1s;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -33,14 +91,9 @@
     }
   }
 
-  &.move-down {
-    @include for-lg {
-      margin-top: 100px;
-    }
-  }
-
   &.green {
     border: 3px solid #a0fa00;
+    transition: all 0.5s;
 
     .membership-block-price {
       color: #a0fa00;
@@ -49,6 +102,7 @@
 
   &.yellow {
     border: 3px solid #ffcc00;
+    transition: all 0.5s;
 
     .membership-block-price {
       color: #ffcc00;
@@ -57,6 +111,7 @@
 
   &.blue {
     border: 3px solid #fc029d;
+    transition: all 0.5s;
 
     .membership-block-price {
       color: #fc029d;
@@ -145,4 +200,82 @@
   border-right: 12px solid $color-primary;
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
+}
+
+
+.membership-benefits {
+  margin-bottom: 50px;
+
+  h2 {
+    font-size: 50px;
+    font-style: italic;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto 30px;
+
+    @include for-lg {
+      font-size: 80px;
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &-item {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+
+    @include for-lg {
+      width: calc(33.3% - 20px);
+      max-width: unset;
+      margin: unset;
+    }
+
+    &.move-down {
+      @include for-lg {
+        margin-top: 100px;
+      }
+    }
+  }
+
+  &-image {
+    width: 100px;
+    height: 100px;
+    //background-color: #ffdd00;
+    //border-radius: 50%;
+    //overflow: hidden;
+    margin: 0 auto 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-title {
+    h3 {
+      color: #fff;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-info {
+    p {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
 }

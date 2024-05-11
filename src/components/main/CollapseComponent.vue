@@ -1,5 +1,6 @@
 <template>
   <div class="container collapse">
+    <h2>Commonly asked questions</h2>
     <el-collapse v-model="activeName" accordion>
       <el-collapse-item title="Consistency" name="1">
         <div>Consistent with real life: in line with the process and logic of real life, and comply with languages and habits that the users are used to;</div>

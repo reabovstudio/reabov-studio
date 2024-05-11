@@ -1,9 +1,14 @@
 <template>
   <div class="container">
+    <membership-benefits-component></membership-benefits-component>
     <div class="membership">
+      <h1>Pricing</h1>
       <!-- block 1-->
-      <div class="membership-item">
-        <div class="membership-block green move-down">
+      <div class="membership-item move-down">
+        <div class="hover-line">
+          <img src="@/assets/images/membership/icons/arrow.svg">
+        </div>
+        <div class="membership-block green">
           <div class="membership-block-image">
             <img src="@/assets/images/membership/easy.gif" alt="easy">
           </div>
@@ -27,10 +32,13 @@
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
-        <dropdown-component :items="dropdownList1"></dropdown-component>
+        <dropdown-component :items="dropdownEasy" :height="280"></dropdown-component>
       </div>
       <!-- block 2-->
       <div class="membership-item">
+        <div class="hover-line">
+          <img src="@/assets/images/membership/icons/arrow.svg">
+        </div>
         <div class="membership-block yellow">
           <div class="membership-block-image">
             <img src="@/assets/images/membership/basic.gif" alt="basic">
@@ -55,11 +63,14 @@
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
-        <dropdown-component :items="dropdownList2"></dropdown-component>
+        <dropdown-component :items="dropdownBasic" :height="480"></dropdown-component>
       </div>
       <!-- block 3-->
-      <div class="membership-item">
-        <div class="membership-block blue move-down">
+      <div class="membership-item move-down">
+        <div class="hover-line">
+          <img src="@/assets/images/membership/icons/arrow.svg">
+        </div>
+        <div class="membership-block blue">
           <div class="membership-block-image">
             <img src="@/assets/images/membership/pro.gif" alt="pro">
           </div>
@@ -84,7 +95,7 @@
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
-        <dropdown-component :items="dropdownList3"></dropdown-component>
+        <dropdown-component :items="dropdownPro" :height="600"></dropdown-component>
       </div>
     </div>
 
@@ -92,17 +103,56 @@
 </template>
 
 <script>
+import MembershipBenefitsComponent from "@/components/main/membership/MembershipBenefitsComponent.vue";
 import DropdownComponent from "@/components/common/DropdownComponent.vue";
 export default {
   name: 'MembershipComponent',
   components: {
+    MembershipBenefitsComponent,
     DropdownComponent
   },
   data() {
     return {
-      dropdownList1: ['Action 1', 'Action 2', 'Action 3', 'Action 4', 'Action 5'],
-      dropdownList2: ['Action 1', 'Action 2', 'Action 3', 'Action 4', 'Action 5'],
-      dropdownList3: ['Action 1', 'Action 2', 'Action 3', 'Action 4', 'Action 5'],
+      dropdownPro: [
+        'Logo Design',
+        'Intro Animation',
+        'Branding x Identity',
+        'Product Design',
+        'Amazon Content',
+        'Merch Design',
+        'Ui/Ux Design',
+        '2D/ 3D Animations',
+        'Lottie Animations',
+        '3D Modeling x Render',
+        'Social Media Graphics',
+        'Blog Graphics',
+        'Banners x Billboards',
+        'Icons x Graphics',
+        'NFT Collections Design'
+      ],
+      dropdownBasic: [
+        'Logo Design',
+        'Intro Animation',
+        'Amazon Content',
+        'Merch Design',
+        'Ui/Ux Design',
+        '2D/3D Animations',
+        'Lottie Animations',
+        '3D Modeling x Render',
+        'Social Media Graphics',
+        'Blog Graphics',
+        'Banners x Billboards',
+        'Icons x Graphics'
+      ],
+      dropdownEasy: [
+        'Logo Design',
+        'Amazon Content',
+        'Merch Design',
+        'Social Media Graphics',
+        'Blog Graphics',
+        'Banners x Billboards',
+        'Icons x Graphics'
+      ],
     }
   }
 }
