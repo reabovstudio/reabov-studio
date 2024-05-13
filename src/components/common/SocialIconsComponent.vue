@@ -5,11 +5,11 @@
         <i class="icon-instagram"></i>
       </a>
     </div>
-    <div class="social-icon">
-      <a href="https://www.youtube.com/channel/UCwUVCAs7J2H4RQjAIHLe7MA" target="_blank">
-        <i class="icon-youtube"></i>
-      </a>
-    </div>
+<!--    <div class="social-icon">-->
+<!--      <a href="https://www.youtube.com/channel/UCwUVCAs7J2H4RQjAIHLe7MA" target="_blank">-->
+<!--        <i class="icon-youtube"></i>-->
+<!--      </a>-->
+<!--    </div>-->
   </div>
 </template>
 

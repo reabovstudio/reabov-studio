@@ -1,5 +1,5 @@
 <template>
-  <div class="container collapse">
+  <div class="container collapse" id="CollapseRef">
     <h2>Commonly asked questions</h2>
     <el-collapse v-model="activeName" accordion>
       <el-collapse-item title="Consistency" name="1">

@@ -1,10 +1,9 @@
 <template>
     <div class="container">
-        <lottie :options="defaultOptions"/>
         <div class="contact">
             <div class="contact-button">
                 <div class="contact-button-image">
-                    <a target="_blank" href="https://t.me/reabovstudio">
+                    <a target="_blank" href="https://t.me/reabov">
                         <img :src="require('@/assets/telegram.svg')">
                     </a>
                 </div>
