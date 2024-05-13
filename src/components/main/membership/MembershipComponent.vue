@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <membership-benefits-component></membership-benefits-component>
-    <div class="membership">
-      <h1>Pricing</h1>
+    <div class="membership" id="PricingRef">
+      <div class="membership-block-title">
+        <h1>Membership Pricing</h1>
+      </div>
       <!-- block 1-->
       <div class="membership-item move-down">
         <div class="hover-line">
@@ -12,7 +14,7 @@
           <div class="membership-block-image">
             <img src="@/assets/images/membership/easy.gif" alt="easy">
           </div>
-          <div class="membership-block-title">
+          <div class="membership-block-title-shape">
             <h2 class="title-shape">Priority 3</h2>
           </div>
           <div class="membership-block-info">
@@ -43,7 +45,7 @@
           <div class="membership-block-image">
             <img src="@/assets/images/membership/basic.gif" alt="basic">
           </div>
-          <div class="membership-block-title">
+          <div class="membership-block-shape">
             <h2 class="title-shape">Priority 2</h2>
           </div>
           <div class="membership-block-info">
@@ -74,7 +76,7 @@
           <div class="membership-block-image">
             <img src="@/assets/images/membership/pro.gif" alt="pro">
           </div>
-          <div class="membership-block-title">
+          <div class="membership-block-shape">
             <h2 class="title-shape">Priority 1</h2>
           </div>
           <div class="membership-block-info">

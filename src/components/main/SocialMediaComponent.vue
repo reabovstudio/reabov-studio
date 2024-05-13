@@ -15,11 +15,11 @@
               <span>follow me</span>
           </div>
           <div class="social-media-item">
-              <a target="_blank" href="https://www.tiktok.com/@reabovstudio">tik tok</a>
-              <span>watch me</span>
+              <a target="_blank" href="https://twitter.com/reabovstudio">x.com</a>
+              <span>follow me</span>
           </div>
           <div class="social-media-item">
-              <a target="_blank" href="https://t.me/reabovstudiodesign">telegram</a>
+              <a target="_blank" href="https://t.me/reabovstudio">telegram</a>
               <span>follow me</span>
           </div>
       </div>

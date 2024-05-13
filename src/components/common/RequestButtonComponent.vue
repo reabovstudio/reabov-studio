@@ -1,6 +1,6 @@
 <template>
   <div class="request-design-btn">
-    <a href="https://t.me/reabovstudio" target="_blank">request a design...</a>
+    <a href="https://t.me/reabov" target="_blank">request a design...</a>
   </div>
 </template>
 

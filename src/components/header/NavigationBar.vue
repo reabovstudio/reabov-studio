@@ -16,10 +16,12 @@
                    background-color="transparent">
             <el-menu-item @click="goToSection('AboutRef')">about</el-menu-item>
             <el-menu-item @click="goToSection('PortfolioRef')">portfolio</el-menu-item>
+            <el-menu-item @click="goToSection('PricingRef')">pricing</el-menu-item>
             <theme-switcher-component></theme-switcher-component>
             <!--          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>-->
             <el-menu-item @click="goToSection('SocialRef')">social</el-menu-item>
-            <el-menu-item @click="goToSection('ContactRef')">contact</el-menu-item>
+            <el-menu-item @click="goToSection('CollapseRef')">q&a</el-menu-item>
+            <el-menu-item @click="goToSection('StockRef')">more</el-menu-item>
           </el-menu>
         </div>
         <div class="navigation-bar-column column-end">

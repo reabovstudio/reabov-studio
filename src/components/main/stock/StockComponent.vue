@@ -1,22 +1,9 @@
 <template>
-  <div class="stock">
+  <div class="stock" id="StockRef">
     <div class="container">
-      <div class="stock-info">
-        <div class="stock-logo">
-          <img :src="require('@/assets/stock-logo.svg')">
-          <p>Be inspired, Be productive, Be creative</p>
-        </div>
-        <div class="stock-icons">
-          <div class="stock-icon">
-            <i class="icon-ring"></i>
-          </div>
-          <div class="stock-icon">
-            <i class="icon-camera"></i>
-          </div>
-          <div class="stock-icon">
-            <i class="icon-sound"></i>
-          </div>
-        </div>
+      <lottie :options="defaultOptions"/>
+      <div class="stock-block-title">
+        <h2>More by me</h2>
       </div>
 
       <div class="stock-items">
@@ -82,10 +69,17 @@
 </template>
 
 <script>
+import Lottie from "vue-lottie";
+import swipe from "@/assets/lottie/swipe.json";
 export default {
   name: 'StockComponent',
+  components: {
+    Lottie
+  },
   data() {
-    return {}
+    return {
+      defaultOptions: {animationData: swipe, loop: true},
+    }
   }
 }
 </script>
