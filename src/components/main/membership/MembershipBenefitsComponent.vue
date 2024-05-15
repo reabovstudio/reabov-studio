@@ -1,6 +1,5 @@
 <template>
   <div>
-    <lottie :options="defaultOptions2"/>
     <div class="membership-benefits">
       <div class="">
         <h2>We did’t reinvent the wheel. Just design</h2>
@@ -117,22 +116,11 @@
         </div>
       </div>
     </div>
-    <lottie :options="defaultOptions2"/>
   </div>
 </template>
 
 <script>
-import Lottie from "vue-lottie";
-import swipe from "@/assets/lottie/swipe.json";
 export default {
   name: 'MembershipBenefitsComponent',
-  components: {
-    Lottie
-  },
-  data() {
-    return {
-      defaultOptions2: {animationData: swipe, loop: true}
-    }
-  }
 }
 </script>
