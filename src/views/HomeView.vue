@@ -1,6 +1,7 @@
 <template>
   <div>
     <banner-component id="BannerRef" class="section-vh"></banner-component>
+    <landing-title-component></landing-title-component>
     <about-component id="AboutRef"></about-component>
     <portfolio-component id="PortfolioRef"></portfolio-component>
     <div class="container">
@@ -34,6 +35,7 @@ import SocialMediaComponent from '@/components/main/SocialMediaComponent';
 import ContactComponent from '@/components/main/ContactComponent';
 import Lottie from "vue-lottie";
 import swipe from "@/assets/lottie/swipe.json";
+import LandingTitleComponent from "@/components/main/LandingTitleComponent.vue";
 
 export default {
   name: 'HomeView',
@@ -46,7 +48,8 @@ export default {
     StockComponent,
     SocialMediaComponent,
     ContactComponent,
-    Lottie
+    Lottie,
+    LandingTitleComponent
   },
   data() {
     return {
