@@ -20,79 +20,14 @@
     }
   }
 
-  .stock-info {
-    margin-bottom: 50px;
-  }
-
   .stock-item-card {
-    height: 350px;
+    height: 290px;
     padding: 25px;
     margin: 10px;
     background-color: #191919;
 
-    .stock-item-content {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      position: relative;
-      z-index: 1;
-    }
-
-    h3 {
-      color: #fff;
-      font-size: 20px;
-      margin: 0;
-      font-weight: 400;
-      line-height: 1.2;
-
-      @include for-sm {
-        width: 330px;
-        font-size: 40px;
-      }
-    }
-
-    h4 {
-      font-size: 18px;
-      color: #fff;
-      margin: 0;
-      font-weight: 400;
-    }
-
-    .stock-item-description {
-      @include for-sm {
-        margin-top: auto;
-      }
-
-      p {
-        margin: 0;
-        color: #fff;
-        font-size: 10px;
-
-        @include for-sm {
-          font-size: 14px;
-        }
-      }
-    }
-
-    .stock-item-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-      background-color: #191919;
-      margin: -25px;
-      padding: 25px;
-      position: relative;
-      z-index: 1;
-
-      p {
-        margin: 0;
-      }
-    }
-
-    .stock-item-footer {
-      position: relative;
-      z-index: 1;
+    @include for-lg {
+      height: 350px;
     }
 
     .stock-item-btn {
@@ -114,80 +49,118 @@
 
   .jewelry-card {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: start;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url("@/assets/jewelry.png");
+    align-items: center;
+    flex-direction: column;
+    background-color: #00bf1a;
 
-    @include for-md {
+    @include for-lg {
       flex-direction: row;
-      align-items: center;
+    }
+
+    .stock-item-card-jewelry-image {
+      max-width: 500px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .stock-item-description-small {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      @include for-lg {
+        display: block;
+      }
+    }
+
+    h3 {
+      font-size: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 900;
+
+      @include for-lg {
+        text-align: unset;
+        font-size: 40px;
+      }
+    }
+
+    span {
+      font-size: 16px;
+
+      @include for-lg {
+        font-size: 20px;
+      }
+
+      &:nth-of-type(1) {
+        font-weight: 900;
+        margin-right: 20px;
+      }
+
+      &:nth-of-type(2) {
+        color: #fff;
+      }
     }
 
     .stock-item-btn {
       a {
-        color: #ffdd00;
+        color: #fff;
       }
     }
   }
 
-  .studio-card {
+  .thumbnail-card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url("@/assets/studio.png");
-
-    .stock-item-btn {
-      a {
-        color: #ffdd00;
-      }
-    }
-  }
-
-  .sound-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url("@/assets/sound.png");
-
-    .stock-item-description {
-      text-align: right;
-    }
-
-    .stock-item-btn {
-      a {
-        color: #74e5ff;
-      }
-    }
-  }
-
-  .fonts-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url("@/assets/fonts.png");
-
-    .stock-item-description {
-      text-align: right;
-    }
+    align-items: center;
 
     .stock-item-btn {
       a {
         color: #a0fa00;
       }
     }
+  }
+
+  .stock-item-head {
+    text-align: center;
+    color: #fff;
+
+    h4 {
+      font-size: 40px;
+      margin: 0;
+      color: #fff;
+    }
+
+    h5 {
+      font-size: 20px;
+      margin: 0;
+      color: #fff;
+      font-weight: 400;
+    }
+  }
+
+  .stock-item-image {
+    max-width: 170px;
+    margin: auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .patreon-card {
+    background-color: #4f5c7d;
+  }
+
+  .behance-card {
+    background-color: #4d00ff;
+  }
+
+  .youtube-card {
+    background-color: #ff1f5e;
   }
 }
 
