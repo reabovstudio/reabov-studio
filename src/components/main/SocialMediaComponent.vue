@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <lottie :options="defaultOptions2"/>
     <div class="social-media">
       <div class="social-media-heading">
         <lottie :options="defaultOptions"/>
