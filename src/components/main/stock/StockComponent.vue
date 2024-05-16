@@ -9,8 +9,11 @@
         <el-col :span="24">
           <div class="stock-item-card jewelry-card shadow-bottom">
             <div class="stock-item-content">
-              <div class="stock-item-card-jewelry-image">
-                <img src="@/assets/logo.svg">
+              <div class="stock-item-card-jewelry-image" v-if="!isMobile">
+                <img src="@/assets/images/stock/reabovstock_desktop.svg">
+              </div>
+              <div class="stock-item-card-jewelry-image" v-if="isMobile">
+                <img src="@/assets/images/stock/reabovstock_mobile.svg">
               </div>
               <div class="stock-item-description">
                 <h3>3D printable jewelry models</h3>
@@ -75,5 +78,20 @@
 <script>
 export default {
   name: 'StockComponent',
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    }
+  },
+  computed: {
+    isMobile() {
+      return this.windowWidth < 992;
+    },
+  },
+  mounted() {
+    window.addEventListener("resize", () => {
+      this.windowWidth = window.innerWidth;
+    });
+  },
 }
 </script>
