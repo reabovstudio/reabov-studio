@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <membership-benefits-component></membership-benefits-component>
+    <membership-slider-component></membership-slider-component>
     <div class="membership" id="PricingRef">
       <div class="membership-block-title">
         <h1>Membership Pricing</h1>
@@ -107,11 +108,13 @@
 <script>
 import MembershipBenefitsComponent from "@/components/main/membership/MembershipBenefitsComponent.vue";
 import DropdownComponent from "@/components/common/DropdownComponent.vue";
+import MembershipSliderComponent from "@/components/main/membership/MembershipSliderComponent.vue";
 export default {
   name: 'MembershipComponent',
   components: {
     MembershipBenefitsComponent,
-    DropdownComponent
+    DropdownComponent,
+    MembershipSliderComponent,
   },
   data() {
     return {

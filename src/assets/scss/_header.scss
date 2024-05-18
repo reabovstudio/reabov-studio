@@ -89,7 +89,8 @@
 
     .el-menu-item {
       background-color: transparent !important;
-      height: 34px;
+      height: auto;
+      line-height: unset;
       text-align: center;
       font-size: 0;
       opacity: 0;
@@ -109,7 +110,7 @@
 
       .el-menu-item {
         font-size: 1.563rem;
-        margin: 15px 0;
+        margin: 10px 0;
         opacity: 1;
         z-index: 1;
       }
@@ -119,6 +120,51 @@
         opacity: 1;
         transition: opacity 0.3s ease-in-out;
       }
+    }
+  }
+}
+
+
+.navigation-bar-mobile,
+.navigation-bar {
+  .menu-item-about {
+    &:hover {
+      color: #ff6400;
+    }
+  }
+  .menu-item-portfolio {
+    &:hover {
+      color: #4d00ff;
+    }
+  }
+  .menu-item-how-it-works {
+    &:hover {
+      color: #ffdd00;
+    }
+  }
+  .menu-item-pricing {
+    &:hover {
+      color: #a0fa00;
+    }
+  }
+  .menu-item-qa {
+    &:hover {
+      color: #ffdd00;
+    }
+  }
+  .menu-item-reviews {
+    &:hover {
+      color: #ff1f5e;
+    }
+  }
+  .menu-item-discover {
+    &:hover {
+      color: #a0fa00;
+    }
+  }
+  .menu-item-social {
+    &:hover {
+      color: #0086ff;
     }
   }
 }

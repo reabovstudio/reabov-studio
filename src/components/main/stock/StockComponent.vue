@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="http://reabovstock.com">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -52,7 +52,7 @@
               <img src="@/assets/images/stock/behance.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="https://www.behance.net/alexandrureabov">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -66,7 +66,7 @@
               <img src="@/assets/images/stock/youtube.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="https://www.youtube.com/@reabovstudio">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="membership-benefits">
+    <div class="membership-benefits" id="BenefitsId">
       <div class="">
         <h2>We did’t reinvent the wheel. Just design</h2>
       </div>
