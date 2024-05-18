@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="shadow">
-      <!-- descktop -->
+    <div class="shadow navigation-bar-container">
+      <!-- desktop -->
       <div class="navigation-bar" v-if="!isMobile">
         <div class="navigation-bar-column column-start">
           <div class="logo">
@@ -14,18 +14,18 @@
           <el-menu class="navigation-bar-menu"
                    @select="handleSelect"
                    background-color="transparent">
-            <el-menu-item @click="goToSection('AboutRef')">about</el-menu-item>
-            <el-menu-item @click="goToSection('PortfolioRef')">portfolio</el-menu-item>
-            <el-menu-item @click="goToSection('PricingRef')">pricing</el-menu-item>
-            <theme-switcher-component></theme-switcher-component>
-            <!--          <el-menu-item index="4" @click="goToSection('StockRef')">stock</el-menu-item>-->
-            <el-menu-item @click="goToSection('SocialRef')">social</el-menu-item>
-            <el-menu-item @click="goToSection('CollapseRef')">q&a</el-menu-item>
-            <el-menu-item @click="goToSection('StockRef')">more</el-menu-item>
+            <el-menu-item @click="goToSection('AboutRef')" class="menu-item-about">about</el-menu-item>
+            <el-menu-item @click="goToSection('PortfolioRef')" class="menu-item-portfolio">portfolio</el-menu-item>
+            <el-menu-item @click="goToSection('BenefitsId')" class="menu-item-how-it-works">how it works</el-menu-item>
+            <el-menu-item @click="goToSection('ReviewsRef')" class="menu-item-reviews">reviews</el-menu-item>
+            <el-menu-item @click="goToSection('PricingRef')" class="menu-item-pricing">pricing</el-menu-item>
+            <el-menu-item @click="goToSection('CollapseRef')" class="menu-item-qa">q&a</el-menu-item>
+            <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
+            <el-menu-item @click="goToSection('SocialRef')" class="menu-item-social">social</el-menu-item>
           </el-menu>
         </div>
         <div class="navigation-bar-column column-end">
-          <social-icons-component></social-icons-component>
+          <theme-switcher-component></theme-switcher-component>
         </div>
       </div>
     </div>
@@ -38,12 +38,14 @@
                  @select="handleSelect"
                  background-color="transparent">
           <theme-switcher-component></theme-switcher-component>
-          <el-menu-item @click="goToSection('BannerRef')">Home</el-menu-item>
-          <el-menu-item @click="goToSection('AboutRef')">About</el-menu-item>
-          <el-menu-item @click="goToSection('PortfolioRef')">Portfolio</el-menu-item>
-          <!--          <el-menu-item index="4" @click="goToSection('StockRef')">Stock</el-menu-item>-->
-          <el-menu-item @click="goToSection('SocialRef')">Social</el-menu-item>
-          <el-menu-item @click="goToSection('ContactRef')">Contact</el-menu-item>
+          <el-menu-item @click="goToSection('AboutRef')" class="menu-item-about">about</el-menu-item>
+          <el-menu-item @click="goToSection('PortfolioRef')" class="menu-item-portfolio">portfolio</el-menu-item>
+          <el-menu-item @click="goToSection('BenefitsId')" class="menu-item-how-it-works">how it works</el-menu-item>
+          <el-menu-item @click="goToSection('ReviewsRef')" class="menu-item-reviews">reviews</el-menu-item>
+          <el-menu-item @click="goToSection('PricingRef')" class="menu-item-pricing">pricing</el-menu-item>
+          <el-menu-item @click="goToSection('CollapseRef')" class="menu-item-qa">q&a</el-menu-item>
+          <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
+          <el-menu-item @click="goToSection('SocialRef')" class="menu-item-social">social</el-menu-item>
         </el-menu>
         <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collapseMenu">
           <span></span>
@@ -56,13 +58,11 @@
 
 <script>
 import ThemeSwitcherComponent from "@/components/common/ThemeSwitcherComponent";
-import SocialIconsComponent from "@/components/common/SocialIconsComponent";
 
 export default {
   name: 'NavigationBar',
   components: {
     ThemeSwitcherComponent,
-    SocialIconsComponent
   },
   data() {
     return {
@@ -102,7 +102,7 @@ export default {
     },
     sectionPosition(value) {
       const element = document.getElementById(value);
-      const headerOffset = 45;
+      const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
