@@ -35,7 +35,7 @@
               <h5>Find more here</h5>
             </div>
             <div class="stock-item-image">
-              <img src="@/assets/images/membership/icons/c1-fast.svg">
+              <img src="@/assets/images/stock/patreon.svg">
             </div>
             <div class="stock-item-btn">
               <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
@@ -49,7 +49,7 @@
               <h5>Same but different</h5>
             </div>
             <div class="stock-item-image">
-              <img src="@/assets/images/membership/icons/c1-fast.svg">
+              <img src="@/assets/images/stock/behance.svg">
             </div>
             <div class="stock-item-btn">
               <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
@@ -63,7 +63,7 @@
               <h5>Music x Video</h5>
             </div>
             <div class="stock-item-image">
-              <img src="@/assets/images/membership/icons/c1-fast.svg">
+              <img src="@/assets/images/stock/youtube.svg">
             </div>
             <div class="stock-item-btn">
               <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>

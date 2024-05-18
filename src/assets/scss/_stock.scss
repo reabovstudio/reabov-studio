@@ -146,15 +146,19 @@
   }
 
   .stock-item-image {
-    max-width: 170px;
+    width: auto;
+    height: 100px;
     margin: auto;
+
     img {
-      width: 100%;
+      width: auto;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
   .patreon-card {
-    background-color: #4f5c7d;
+    background-color: #ff1e5d;
   }
 
   .behance-card {
@@ -162,7 +166,7 @@
   }
 
   .youtube-card {
-    background-color: #ff1f5e;
+    background-color: #fe0000;
   }
 }
 
