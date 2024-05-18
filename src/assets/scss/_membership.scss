@@ -161,9 +161,13 @@
     line-height: 1;
 
     &-number {
-      font-size: 64px;
+      font-size: 54px;
       font-weight: 800;
       font-style: italic;
+
+      @include for-lg {
+        font-size: 64px;
+      }
     }
 
     &-text {
