@@ -8,7 +8,7 @@
           inactive-color="#fff">
       </el-switch>
     </div>
-    <span class="theme">purple</span>
+    <span class="theme">wtf</span>
   </div>
 </template>
 

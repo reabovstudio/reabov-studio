@@ -29,24 +29,30 @@ export default {
       windowWidth: window.innerWidth,
       desktopSlides: [
         {
-          imagePath: 'desktop.png'
+          imagePath: 'R1D.png'
         },
         {
-          imagePath: 'desktop.png'
+          imagePath: 'R2D.png'
         },
         {
-          imagePath: 'desktop.png'
+          imagePath: 'R3D.png'
+        },
+        {
+          imagePath: 'R4D.png'
         },
       ],
       mobileSlides: [
         {
-          imagePath: 'mobile.png'
+          imagePath: 'R1M.png'
         },
         {
-          imagePath: 'mobile.png'
+          imagePath: 'R2M.png'
         },
         {
-          imagePath: 'mobile.png'
+          imagePath: 'R3M.png'
+        },
+        {
+          imagePath: 'R4M.png'
         },
       ]
     }
