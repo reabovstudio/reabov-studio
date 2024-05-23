@@ -1,10 +1,10 @@
 <template>
-  <div class="container stock" id="StockRef">
+  <div class=" stock" id="StockRef">
     <div class="stock-block-title">
       <h2>More by me</h2>
     </div>
 
-    <div class="stock-items">
+    <div class="container stock-items">
       <el-row>
         <el-col :span="24">
           <div class="stock-item-card jewelry-card shadow-bottom">
