@@ -1,6 +1,6 @@
 .membership {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
   margin-bottom: 50px;
@@ -11,10 +11,12 @@
     font-size: 34px;
     text-align: center;
     font-style: italic;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 
     @include for-lg {
       font-size: 80px;
+      margin-bottom: 80px;
     }
   }
 }
