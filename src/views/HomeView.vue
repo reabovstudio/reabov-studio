@@ -12,13 +12,13 @@
       <lottie :options="defaultOptions"/>
     </div>
     <membership-component></membership-component>
-    <contact-component id="ContactRef"></contact-component>
+<!--    <contact-component id="ContactRef"></contact-component>-->
     <div class="container">
       <lottie :options="defaultOptions"/>
     </div>
-<!--    <collapse-component></collapse-component>-->
+    <collapse-component></collapse-component>
     <div class="container">
-<!--      <lottie :options="defaultOptions"/>-->
+      <lottie :options="defaultOptions"/>
     </div>
     <stock-component id="StockRef"></stock-component>
     <div class="container">
@@ -33,10 +33,10 @@ import BannerComponent from '@/components/main/BannerComponent.vue';
 import AboutComponent from '@/components/main/AboutComponent.vue';
 import PortfolioComponent from '@/components/main/PortfolioComponent.vue';
 import MembershipComponent from "@/components/main/membership/MembershipComponent.vue";
-// import CollapseComponent from "@/components/main/CollapseComponent.vue";
+import CollapseComponent from "@/components/main/CollapseComponent.vue";
 import StockComponent from '@/components/main/stock/StockComponent';
 import SocialMediaComponent from '@/components/main/SocialMediaComponent';
-import ContactComponent from '@/components/main/ContactComponent';
+// import ContactComponent from '@/components/main/ContactComponent';
 import Lottie from "vue-lottie";
 import swipe from "@/assets/lottie/swipe.json";
 import LandingTitleComponent from "@/components/main/LandingTitleComponent.vue";
@@ -49,10 +49,10 @@ export default {
     AboutComponent,
     PortfolioComponent,
     MembershipComponent,
-    // CollapseComponent,
+    CollapseComponent,
     StockComponent,
     SocialMediaComponent,
-    ContactComponent,
+    // ContactComponent,
     Lottie,
     LandingTitleComponent,
     ClientsComponent,
