@@ -24,6 +24,9 @@
     <div class="container">
       <lottie :options="defaultOptions"/>
     </div>
+    <div class="container">
+      <lottie :options="discoverMore"/>
+    </div>
     <social-media-component id="SocialRef"></social-media-component>
   </div>
 </template>
@@ -39,6 +42,7 @@ import SocialMediaComponent from '@/components/main/SocialMediaComponent';
 // import ContactComponent from '@/components/main/ContactComponent';
 import Lottie from "vue-lottie";
 import swipe from "@/assets/lottie/swipe.json";
+import discoverMore from "@/assets/lottie/discover_more.json";
 import LandingTitleComponent from "@/components/main/LandingTitleComponent.vue";
 import ClientsComponent from "@/components/main/ClientsComponent.vue";
 
@@ -60,6 +64,7 @@ export default {
   data() {
     return {
       defaultOptions: {animationData: swipe, loop: true},
+      discoverMore: {animationData: discoverMore, loop: true}
     }
   }
 }
