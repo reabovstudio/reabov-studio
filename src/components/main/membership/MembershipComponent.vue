@@ -2,6 +2,7 @@
   <div class="container">
     <membership-benefits-component></membership-benefits-component>
     <membership-slider-component></membership-slider-component>
+    <membership-offer-component></membership-offer-component>
     <div class="membership" id="PricingRef">
       <div class="membership-block-title">
         <h1>Membership Pricing</h1>
@@ -31,11 +32,10 @@
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">2995 $</span>
+            <span class="membership-block-price-number">1995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
-<!--        <dropdown-component :items="dropdownBasic" :height="480"></dropdown-component>-->
       </div>
       <!-- block 2-->
       <div class="membership-item">
@@ -62,71 +62,25 @@
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">5995 $</span>
+            <span class="membership-block-price-number">4995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
-<!--        <dropdown-component :items="dropdownPro" :height="600"></dropdown-component>-->
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 import MembershipBenefitsComponent from "@/components/main/membership/MembershipBenefitsComponent.vue";
-// import DropdownComponent from "@/components/common/DropdownComponent.vue";
 import MembershipSliderComponent from "@/components/main/membership/MembershipSliderComponent.vue";
+import MembershipOfferComponent from "@/components/main/membership/MembershipOfferComponent.vue";
 export default {
   name: 'MembershipComponent',
   components: {
     MembershipBenefitsComponent,
-    // DropdownComponent,
     MembershipSliderComponent,
+    MembershipOfferComponent,
   },
-  data() {
-    return {
-      dropdownPro: [
-        'Logo Design',
-        'Intro Animation',
-        'Branding x Identity',
-        'Product Design',
-        'Amazon Content',
-        'Merch Design',
-        'Ui/Ux Design',
-        '2D/ 3D Animations',
-        'Lottie Animations',
-        '3D Modeling x Render',
-        'Social Media Graphics',
-        'Blog Graphics',
-        'Banners x Billboards',
-        'Icons x Graphics',
-        'NFT Collections Design'
-      ],
-      dropdownBasic: [
-        'Logo Design',
-        'Intro Animation',
-        'Amazon Content',
-        'Merch Design',
-        'Ui/Ux Design',
-        '2D/3D Animations',
-        'Lottie Animations',
-        '3D Modeling x Render',
-        'Social Media Graphics',
-        'Blog Graphics',
-        'Banners x Billboards',
-        'Icons x Graphics'
-      ],
-      dropdownEasy: [
-        'Logo Design',
-        'Amazon Content',
-        'Merch Design',
-        'Social Media Graphics',
-        'Blog Graphics',
-        'Banners x Billboards',
-        'Icons x Graphics'
-      ],
-    }
-  }
 }
 </script>

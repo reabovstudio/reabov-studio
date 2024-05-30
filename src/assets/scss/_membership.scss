@@ -11,12 +11,11 @@
     font-size: 34px;
     text-align: center;
     font-style: italic;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
 
     @include for-lg {
       font-size: 80px;
-      margin-bottom: 80px;
+      margin: 0 0 80px;
     }
   }
 }
@@ -190,6 +189,7 @@
   background: #ffcc00;
   margin: auto;
 }
+
 .title-shape:after {
   content: "";
   position: absolute;
@@ -201,6 +201,7 @@
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
 }
+
 .title-shape:before {
   content: "";
   position: absolute;
@@ -341,6 +342,35 @@
 
     @include for-lg {
       font-size: 30px;
+    }
+  }
+}
+
+.membership-offer {
+  margin: 100px auto;
+
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 34px;
+
+    @include for-lg {
+      font-size: 60px;
+    }
+  }
+
+  .services {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+
+    span {
+      font-style: italic;
+      line-height: 1;
     }
   }
 }

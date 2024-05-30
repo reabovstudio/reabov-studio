@@ -15,7 +15,7 @@
     </div>
 <!--    <collapse-component></collapse-component>-->
     <div class="container">
-      <lottie :options="defaultOptions"/>
+<!--      <lottie :options="defaultOptions"/>-->
     </div>
     <stock-component id="StockRef"></stock-component>
     <div class="container">
