@@ -25,10 +25,30 @@
     color: #fff;
     border: none;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    height: unset;
+    line-height: unset;
+    text-align: center;
+
+    i {
+      margin: unset;
+      color: #00bf1a;
+      font-weight: 900;
+      font-size: 20px;
+      transform: rotate(90deg);
+
+      &.is-active {
+        transform: rotate(270deg);
+      }
+    }
   }
 
   .el-collapse-item__content {
     font-size: 16px;
+    text-align: center;
   }
 
   .el-collapse-item__wrap {

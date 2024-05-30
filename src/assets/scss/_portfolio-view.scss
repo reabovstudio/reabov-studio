@@ -140,25 +140,3 @@
     width: 100%;
   }
 }
-
-.portfolio-explore-btn {
-  a {
-    font-weight: 400;
-    text-decoration: none;
-    color: #fff;
-    transition: .5s ease-in-out;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    padding: 5px 15px;
-
-    @include for-md {
-      padding: 5px 20px;
-    }
-
-    &:hover {
-      cursor: pointer;
-      transform: translateY(-5px);
-      box-shadow: 0 10px 30px 4px $color-secondary;
-    }
-  }
-}

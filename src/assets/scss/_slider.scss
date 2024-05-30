@@ -1,4 +1,6 @@
 .membership-slider {
+  margin-bottom: 50px;
+
   .membership-slide {
     padding: 40px;
 
@@ -8,6 +10,8 @@
   }
 
   .slick-dots {
+    bottom: 0;
+
     li {
       button {
         &:before {
