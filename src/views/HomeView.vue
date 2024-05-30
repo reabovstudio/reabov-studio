@@ -4,6 +4,9 @@
     <landing-title-component></landing-title-component>
     <about-component id="AboutRef"></about-component>
     <clients-component></clients-component>
+    <div class="container">
+      <lottie :options="defaultOptions"/>
+    </div>
     <portfolio-component id="PortfolioRef"></portfolio-component>
     <div class="container">
       <lottie :options="defaultOptions"/>

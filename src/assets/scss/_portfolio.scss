@@ -43,27 +43,27 @@
 
 .portfolio-button {
   margin: 30px auto 0;
-  max-width: calc(275px - 60px);
+  max-width: calc(275px - 40px);
   transition: .5s ease-in-out;
   border-radius: 50px;
-  padding: 15px 50px;
+  padding: 10px 20px;
   background-color: #fe0000;
   text-align: center;
 
   @include for-md {
-    max-width: calc(350px - 60px);
+    max-width: calc(275px - 40px);
     border-radius: 50px;
   }
 
   a {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     font-style: italic;
     font-weight: 900;
     color: #fff;
 
     @include for-md {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
 

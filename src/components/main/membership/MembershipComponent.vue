@@ -2,6 +2,7 @@
   <div class="container">
     <membership-benefits-component></membership-benefits-component>
     <membership-slider-component></membership-slider-component>
+    <vertical-line-component></vertical-line-component>
     <membership-offer-component></membership-offer-component>
     <div class="membership" id="PricingRef">
       <div class="membership-block-title">
@@ -75,12 +76,14 @@
 import MembershipBenefitsComponent from "@/components/main/membership/MembershipBenefitsComponent.vue";
 import MembershipSliderComponent from "@/components/main/membership/MembershipSliderComponent.vue";
 import MembershipOfferComponent from "@/components/main/membership/MembershipOfferComponent.vue";
+import VerticalLineComponent from "@/components/main/VerticalLineComponent.vue";
 export default {
   name: 'MembershipComponent',
   components: {
     MembershipBenefitsComponent,
     MembershipSliderComponent,
     MembershipOfferComponent,
+    VerticalLineComponent,
   },
 }
 </script>
