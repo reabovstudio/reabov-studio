@@ -32,10 +32,12 @@
     flex-direction: column;
     align-items: center;
     margin: 50px 0 0;
+    gap: 50px;
 
     @include for-md {
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      flex-wrap: wrap;
     }
   }
 
@@ -43,7 +45,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
 
     a {
       text-decoration: none;
