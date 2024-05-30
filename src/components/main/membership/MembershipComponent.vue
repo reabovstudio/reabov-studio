@@ -6,14 +6,17 @@
     <membership-offer-component></membership-offer-component>
     <div class="membership" id="PricingRef">
       <div class="membership-block-title">
-        <h1>Membership Pricing</h1>
+        <h1>Pricing</h1>
+      </div>
+      <div class="membership-slot">
+        <div class="membership-slot-widget">
+          <div class="slot-circle"></div>
+          <span class="slot-text">Slots available</span>
+        </div>
       </div>
       <!-- block 1-->
       <div class="membership-item">
-        <div class="hover-line">
-          <img src="@/assets/images/membership/icons/arrow.svg">
-        </div>
-        <div class="membership-block yellow">
+        <div class="membership-block green">
           <div class="membership-block-image">
             <img src="@/assets/images/membership/basic.gif" alt="basic">
           </div>
@@ -29,7 +32,7 @@
               <li>Unlimited Team Members</li>
               <li>Unlimited STOCK Images</li>
               <li>Manage tasks with Trello Board</li>
-              <li class="muted-text">Pause or cancel anytime</li>
+              <li>Pause or cancel anytime</li>
             </ul>
           </div>
           <div class="membership-block-price">
@@ -40,10 +43,7 @@
       </div>
       <!-- block 2-->
       <div class="membership-item">
-        <div class="hover-line">
-          <img src="@/assets/images/membership/icons/arrow.svg">
-        </div>
-        <div class="membership-block green">
+        <div class="membership-block red">
           <div class="membership-block-image">
             <img src="@/assets/images/membership/pro.gif" alt="pro">
           </div>
@@ -59,13 +59,23 @@
               <li>Unlimited Team Members</li>
               <li>Unlimited STOCK Images</li>
               <li>Manage tasks with Trello Board</li>
-              <li class="muted-text">Pause or cancel anytime</li>
+              <li>Pause or cancel anytime</li>
             </ul>
           </div>
           <div class="membership-block-price">
             <span class="membership-block-price-number">4995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
+        </div>
+      </div>
+      <div class="membership-call">
+        <h3>Lets start with a call</h3>
+        <p>Learn more about how Reabov Studio works</p>
+        <p>and how it can help you</p>
+        <div class="membership-call-button">
+          <a target="_blank" href="https://t.me/reabov">
+            book a call
+          </a>
         </div>
       </div>
     </div>
