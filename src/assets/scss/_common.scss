@@ -149,7 +149,11 @@ body {
 }
 
 .clients {
-    margin-top: 100px;
+    margin: 50px auto;
+
+    @include for-lg {
+        margin: 100px auto;
+    }
 
     .client-image {
         img {
