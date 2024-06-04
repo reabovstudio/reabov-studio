@@ -2,12 +2,11 @@
   <div class="container">
     <div class="contact">
       <div class="contact-info">
-        <h3>Contact me via telegram</h3>
-        <h3>and...</h3>
+        <h3>Thx U</h3>
       </div>
       <div class="contact-button">
         <a target="_blank" href="https://t.me/reabov">
-          Let's start
+          <img src="@/assets/thnu.svg">
         </a>
       </div>
     </div>

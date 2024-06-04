@@ -13,21 +13,13 @@
     padding: 15px 50px;
     background-color: #ffdd00;
 
+    img {
+      width: 100%;
+    }
+
     @include for-md {
       max-width: calc(350px - 60px);
       border-radius: 50px;
-    }
-
-    a {
-      font-size: 30px;
-      text-decoration: none;
-      font-style: italic;
-      font-weight: 900;
-      color: #000;
-
-      @include for-md {
-        font-size: 50px;
-      }
     }
 
     &:hover {
@@ -42,11 +34,12 @@
 
     h3 {
       color: #fff;
-      font-size: 20px;
+      font-size: 34px;
+      font-style: italic;
       margin: 0;
 
       @include for-md {
-        font-size: 40px;
+        font-size: 80px;
       }
     }
 
