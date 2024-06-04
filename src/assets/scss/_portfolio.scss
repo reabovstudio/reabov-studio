@@ -1,5 +1,9 @@
 .portfolio-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+
+  @include for-lg {
+    margin-bottom: 100px;
+  }
 
   a {
     text-decoration: none;

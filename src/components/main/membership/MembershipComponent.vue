@@ -36,7 +36,7 @@
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">1995 $</span>
+            <span class="membership-block-price-number">2995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
@@ -63,7 +63,7 @@
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">4995 $</span>
+            <span class="membership-block-price-number">7995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>

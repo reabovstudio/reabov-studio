@@ -1,5 +1,6 @@
 <template>
   <div class="membership-slider" id="ReviewsRef">
+    <div class="vertical-line"></div>
     <vue-slick-carousel :arrows="true" :dots="true"  v-if="!isMobile">
       <div v-for="(slide, index) in desktopSlides" :key="index">
         <div class="membership-slide">

@@ -40,7 +40,6 @@ export default {
         this.$router.push('/').then(() => {
           this.sectionPosition(value);
         });
-
       } else {
         this.sectionPosition(value);
       }

@@ -2,6 +2,7 @@
   <div class=" stock" id="StockRef">
     <div class="stock-block-title">
       <h2>More by me</h2>
+      <h3>Discover a lot of different and cool things here</h3>
     </div>
 
     <div class="container stock-items">
