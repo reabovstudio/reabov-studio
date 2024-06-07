@@ -5,7 +5,7 @@
                 <lottie :options="defaultOptions2"/>
             </div>
             <div class="about-img">
-                <img src="@/assets/author.png" alt="author">
+                <img src="@/assets/REABOV.png" alt="author">
             </div>
         </div>
         <div class="about-info shadow">

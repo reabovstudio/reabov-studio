@@ -2,19 +2,25 @@
   <div class="container">
     <div class="landing-title-container">
       <div class="landing-title-container-heading">
-        <h1>This is a different</h1>
-        <h1>Design agency</h1>
-      </div>
-      <div class="landing-title-container-info">
-        <h2>Design subscription for everyone</h2>
-        <h2>Pause or cancel anytime.</h2>
+        <lottie :options="defaultOptions"></lottie>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import lottieTitleAnimation from '@/assets/lottie/intro_title_animation.json';
+import Lottie from "vue-lottie";
+
 export default {
-  name: 'LandingTitleComponent'
+  name: 'LandingTitleComponent',
+  components: {
+    Lottie,
+  },
+  data() {
+    return {
+      defaultOptions: {animationData: lottieTitleAnimation, loop: true},
+    }
+  }
 }
 </script>

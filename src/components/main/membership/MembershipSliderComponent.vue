@@ -30,30 +30,42 @@ export default {
       windowWidth: window.innerWidth,
       desktopSlides: [
         {
-          imagePath: 'R1D.png'
+          imagePath: '1RD.png'
         },
         {
-          imagePath: 'R2D.png'
+          imagePath: '2RD.png'
         },
         {
-          imagePath: 'R3D.png'
+          imagePath: '3RD.png'
         },
         {
-          imagePath: 'R4D.png'
+          imagePath: '4RD.png'
+        },
+        {
+          imagePath: '5RD.png'
+        },
+        {
+          imagePath: '6RD.png'
         },
       ],
       mobileSlides: [
         {
-          imagePath: 'R1M.png'
+          imagePath: '1RM.png'
         },
         {
-          imagePath: 'R2M.png'
+          imagePath: '2RM.png'
         },
         {
-          imagePath: 'R3M.png'
+          imagePath: '3RM.png'
         },
         {
-          imagePath: 'R4M.png'
+          imagePath: '4RM.png'
+        },
+        {
+          imagePath: '5RM.png'
+        },
+        {
+          imagePath: '6RM.png'
         },
       ]
     }

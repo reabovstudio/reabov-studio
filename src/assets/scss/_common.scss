@@ -156,6 +156,9 @@ body {
     }
 
     .client-image {
+        max-width: 1000px;
+        margin: auto;
+
         img {
             width: 100%;
         }
