@@ -20,8 +20,8 @@
             <el-menu-item @click="goToSection('ReviewsRef')" class="menu-item-reviews">reviews</el-menu-item>
             <el-menu-item @click="goToSection('PricingRef')" class="menu-item-pricing">pricing</el-menu-item>
 <!--            <el-menu-item @click="goToSection('CollapseRef')" class="menu-item-qa">q&a</el-menu-item>-->
-            <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
             <el-menu-item @click="goToSection('SocialRef')" class="menu-item-social">social</el-menu-item>
+            <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
           </el-menu>
         </div>
         <div class="navigation-bar-column column-end">
@@ -44,8 +44,8 @@
           <el-menu-item @click="goToSection('ReviewsRef')" class="menu-item-reviews">reviews</el-menu-item>
           <el-menu-item @click="goToSection('PricingRef')" class="menu-item-pricing">pricing</el-menu-item>
 <!--          <el-menu-item @click="goToSection('CollapseRef')" class="menu-item-qa">q&a</el-menu-item>-->
-          <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
           <el-menu-item @click="goToSection('SocialRef')" class="menu-item-social">social</el-menu-item>
+          <el-menu-item @click="goToSection('StockRef')" class="menu-item-discover">discover more</el-menu-item>
         </el-menu>
         <div class="collapse-btn" :class="{active: this.isActive}" @click="this.collapseMenu">
           <span></span>

@@ -6,15 +6,15 @@
       </div>
       <div class="social-media-items">
           <div class="social-media-item">
-            <a target="_blank" href="https://www.instagram.com/reabovstudio/">linkedin</a>
+            <a target="_blank" href="https://www.linkedin.com/in/reabovstudio/">linkedin</a>
             <span>connect with me</span>
           </div>
           <div class="social-media-item">
-            <a target="_blank" href="https://www.instagram.com/reabovstudio/">behance</a>
+            <a target="_blank" href="https://www.behance.net/alexandrureabov">behance</a>
             <span>follow me</span>
           </div>
           <div class="social-media-item">
-            <a target="_blank" href="https://www.instagram.com/reabovstudio/">artstation</a>
+            <a target="_blank" href="https://www.artstation.com/reabovstudio">artstation</a>
             <span>follow me</span>
           </div>
           <div class="social-media-item">

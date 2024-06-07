@@ -63,7 +63,7 @@
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">7995 $</span>
+            <span class="membership-block-price-number">5995 $</span>
             <span class="membership-block-price-text">per month</span>
           </div>
         </div>
@@ -73,7 +73,7 @@
         <p>Learn more about how Reabov Studio works</p>
         <p>and how it can help you</p>
         <div class="membership-call-button">
-          <a target="_blank" href="https://t.me/reabov">
+          <a target="_blank" href="https://calendly.com/reabovstudio/15min">
             book a call
           </a>
         </div>

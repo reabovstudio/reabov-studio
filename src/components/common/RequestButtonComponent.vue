@@ -1,6 +1,6 @@
 <template>
   <div class="request-design-btn">
-    <a href="https://t.me/reabov" target="_blank">request a design...</a>
+    <a href="https://calendly.com/reabovstudio/15min" target="_blank">request a design...</a>
   </div>
 </template>
 
