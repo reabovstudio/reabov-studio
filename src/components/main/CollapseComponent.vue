@@ -17,7 +17,7 @@
         </div>
       </el-collapse-item>
       <el-collapse-item title="How fast will I receive my designs?" name="3">
-        <div>On average, most requests are completed in just two days or less. However, more complex requests can take
+        <div>On average, most requests are completed in just three days or less. However, more complex requests can take
           longer.
         </div>
       </el-collapse-item>

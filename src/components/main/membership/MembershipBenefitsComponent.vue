@@ -63,7 +63,7 @@
             <h3>Fast delivery</h3>
           </div>
           <div class="membership-benefits-info">
-            <p>Easily manage your design tasks with a Trello board.</p>
+            <p>Receive your design within three business days on average</p>
           </div>
         </div>
         <!--membership benefits item-->
