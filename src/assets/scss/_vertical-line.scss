@@ -45,7 +45,11 @@
       margin: 0;
       text-transform: uppercase;
       font-style: italic;
-      font-size: 28px;
+      font-size: 26px;
+
+      @include for-lg {
+        font-size: 30px;
+      }
     }
   }
 
