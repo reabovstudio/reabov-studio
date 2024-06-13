@@ -20,7 +20,7 @@
             <img src="@/assets/images/membership/icons/c1-fast.svg">
           </div>
           <div class="membership-benefits-info">
-            <p>Receive your design within two business days on average.</p>
+            <p>Get your design one at a time in just a few days on average.</p>
           </div>
         </div>
         <!--membership benefits item-->
