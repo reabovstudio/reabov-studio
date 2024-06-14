@@ -97,8 +97,8 @@
           </div>
           <div class="membership-block-info">
             <ul>
-              <li>Standard Priority</li>
-              <li>One Request At a Time</li>
+              <li>Primary Priority</li>
+              <li>Many Request At a Time</li>
               <li>Average 24 Hour Delivery</li>
               <li class="text-muted">Unlimited Brands</li>
               <li class="text-muted">Private Telegram Chat</li>
