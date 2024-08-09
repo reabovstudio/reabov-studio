@@ -241,46 +241,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "id": 11,
-            "category": "logo-test",
-            "cover": "portfolio/amazon-content/amazon.png",
-            "tags": ["logo design", "logo concept", "logo intro"],
-            "slug": "logo-test",
-            "items": [
-                {
-                    "id": 16,
-                    "label": "Teh km zero",
-                    "cover": "branding/teh-km-zero/1.jpg",
-                    "video": "",
-                    "images": [
-                        "branding/teh-km-zero/1.jpg",
-                        "branding/teh-km-zero/2.jpg",
-                        "branding/teh-km-zero/3.jpg",
-                        "branding/teh-km-zero/4.jpg",
-                        "branding/teh-km-zero/5.jpg",
-                        "branding/teh-km-zero/6.jpg",
-                        "branding/teh-km-zero/7.jpg"
-                    ]
-                },
-                {
-                    "id": 17,
-                    "label": "Victor Teslaru",
-                    "cover": "branding/victor-teslaru/B1.png",
-                    "video": "",
-                    "images": [
-                        "branding/victor-teslaru/B1.png",
-                        "branding/victor-teslaru/B2.png",
-                        "branding/victor-teslaru/B3.png",
-                        "branding/victor-teslaru/B4.png",
-                        "branding/victor-teslaru/B5.png",
-                        "branding/victor-teslaru/B6.png",
-                        "branding/victor-teslaru/B7.png",
-                        "branding/victor-teslaru/B8.png"
-                    ]
-                }
-            ]
         }
     ]
 }
