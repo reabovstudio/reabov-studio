@@ -1,6 +1,7 @@
 <template>
   <div>
     <banner-component id="BannerRef" class="section-vh"></banner-component>
+    <h1 style="color: white;">test</h1>
     <landing-title-component></landing-title-component>
     <about-component id="AboutRef"></about-component>
     <clients-component></clients-component>
