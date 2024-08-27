@@ -33,10 +33,11 @@
               <li class="text-muted">Unlimited Team Members</li>
               <li class="text-muted">Unlimited Stock Images</li>
               <li class="text-muted">Manage tasks with Trello Board</li>
+              <li>ALL TAXES INCLUDED</li>
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">2995 $</span>
+            <span class="membership-block-price-number">4095 $</span>
             <span class="membership-block-price-text">one month</span>
           </div>
           <div class="membership-block-footer-text">
@@ -69,10 +70,11 @@
               <li class="text-muted">Unlimited Team Members</li>
               <li class="text-muted">Unlimited Stock Images</li>
               <li class="text-muted">Manage tasks with Trello Board</li>
+              <li>ALL TAXES INCLUDED</li>
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">5995 $</span>
+            <span class="membership-block-price-number">9095 $</span>
             <span class="membership-block-price-text">3 month</span>
           </div>
           <div class="membership-block-footer-text">
@@ -105,10 +107,11 @@
               <li class="text-muted">Unlimited Team Members</li>
               <li class="text-muted">Unlimited Stock Images</li>
               <li class="text-muted">Manage tasks with Trello Board</li>
+              <li>ALL TAXES INCLUDED</li>
             </ul>
           </div>
           <div class="membership-block-price">
-            <span class="membership-block-price-number">7995 $</span>
+            <span class="membership-block-price-number">6095 $</span>
             <span class="membership-block-price-text">one month</span>
           </div>
           <div class="membership-block-footer-text">
