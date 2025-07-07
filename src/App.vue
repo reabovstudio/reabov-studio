@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-if="false">
+    <div v-if="true">
       <el-header class="fixed-bar" height="auto">
         <navigation-bar></navigation-bar>
       </el-header>
@@ -12,7 +12,7 @@
       </el-footer>
       <request-button-component></request-button-component>
     </div>
-    <div v-if="true">
+    <div v-if="false">
       <coming-soon-view></coming-soon-view>
     </div>
   </div>
