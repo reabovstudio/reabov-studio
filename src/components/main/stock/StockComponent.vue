@@ -7,28 +7,28 @@
 
     <div class="container stock-items">
       <el-row>
-        <el-col :span="24">
-          <div class="stock-item-card jewelry-card shadow-bottom">
-            <div class="stock-item-content">
-              <div class="stock-item-card-jewelry-image" v-if="!isMobile">
-                <img src="@/assets/images/stock/reabovstock_desktop.svg">
-              </div>
-              <div class="stock-item-card-jewelry-image" v-if="isMobile">
-                <img src="@/assets/images/stock/reabovstock_mobile.svg">
-              </div>
-              <div class="stock-item-description">
-                <h3>3D printable jewelry models</h3>
-                <div class="stock-item-description-small">
-                  <span>Join and Download</span>
-                  <span>Rings, Pendants, Sculptures, Chains + More</span>
-                </div>
-              </div>
-            </div>
-            <div class="stock-item-btn">
-              <a href="http://reabovstock.com">Discover <i class="icon-next"></i></a>
-            </div>
-          </div>
-        </el-col>
+<!--        <el-col :span="24">-->
+<!--          <div class="stock-item-card jewelry-card shadow-bottom">-->
+<!--            <div class="stock-item-content">-->
+<!--              <div class="stock-item-card-jewelry-image" v-if="!isMobile">-->
+<!--                <img src="@/assets/images/stock/reabovstock_desktop.svg">-->
+<!--              </div>-->
+<!--              <div class="stock-item-card-jewelry-image" v-if="isMobile">-->
+<!--                <img src="@/assets/images/stock/reabovstock_mobile.svg">-->
+<!--              </div>-->
+<!--              <div class="stock-item-description">-->
+<!--                <h3>3D printable jewelry models</h3>-->
+<!--                <div class="stock-item-description-small">-->
+<!--                  <span>Join and Download</span>-->
+<!--                  <span>Rings, Pendants, Sculptures, Chains + More</span>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="stock-item-btn">-->
+<!--              <a href="http://reabovstock.com">Discover <i class="icon-next"></i></a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </el-col>-->
         <el-col :lg="8">
           <div class="stock-item-card thumbnail-card patreon-card shadow-bottom">
             <div class="stock-item-head">
@@ -39,7 +39,7 @@
               <img src="@/assets/images/stock/patreon.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.patreon.com/reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="https://www.patreon.com/reabov">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -53,7 +53,7 @@
               <img src="@/assets/images/stock/behance.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.behance.net/alexandrureabov">Discover <i class="icon-next"></i></a>
+              <a href="https://www.behance.net/reabovstudio">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -67,7 +67,7 @@
               <img src="@/assets/images/stock/youtube.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.youtube.com/@reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="https://www.youtube.com/@ReabovAlexandru">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>

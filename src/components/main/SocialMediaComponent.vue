@@ -10,15 +10,15 @@
             <span>connect with me</span>
           </div>
           <div class="social-media-item">
-            <a target="_blank" href="https://www.behance.net/alexandrureabov">behance</a>
+            <a target="_blank" href="https://www.behance.net/reabovstudio">behance</a>
             <span>follow me</span>
           </div>
           <div class="social-media-item">
-            <a target="_blank" href="https://www.artstation.com/reabovstudio">artstation</a>
+            <a target="_blank" href="https://www.artstation.com/reabov">artstation</a>
             <span>follow me</span>
           </div>
           <div class="social-media-item">
-              <a target="_blank" href="https://www.facebook.com/reabovstudio?mibextid=LQQJ4d">facebook</a>
+              <a target="_blank" href="https://www.facebook.com/reabovstudio/">facebook</a>
               <span>follow me</span>
           </div>
           <div class="social-media-item">
@@ -26,11 +26,11 @@
             <span>follow me</span>
           </div>
           <div class="social-media-item">
-              <a target="_blank" href="https://twitter.com/reabovstudio">x.com</a>
+              <a target="_blank" href="https://x.com/reabovstudio">x.com</a>
               <span>follow me</span>
           </div>
           <div class="social-media-item">
-              <a target="_blank" href="https://t.me/reabovstudio">telegram</a>
+              <a target="_blank" href="https://t.me/reabov">telegram</a>
               <span>follow me</span>
           </div>
       </div>

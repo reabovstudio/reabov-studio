@@ -15,10 +15,10 @@
     <div class="container">
       <lottie :options="defaultOptions"/>
     </div>
-    <collapse-component></collapse-component>
-    <div class="container">
-      <lottie :options="defaultOptions"/>
-    </div>
+<!--    <collapse-component></collapse-component>-->
+<!--    <div class="container">-->
+<!--      <lottie :options="defaultOptions"/>-->
+<!--    </div>-->
     <social-media-component id="SocialRef"></social-media-component>
     <div class="container">
       <lottie :options="discoverMore"/>
@@ -36,7 +36,7 @@ import BannerComponent from '@/components/main/BannerComponent.vue';
 import AboutComponent from '@/components/main/AboutComponent.vue';
 import PortfolioComponent from '@/components/main/PortfolioComponent.vue';
 import MembershipComponent from "@/components/main/membership/MembershipComponent.vue";
-import CollapseComponent from "@/components/main/CollapseComponent.vue";
+// import CollapseComponent from "@/components/main/CollapseComponent.vue";
 import StockComponent from '@/components/main/stock/StockComponent';
 import SocialMediaComponent from '@/components/main/SocialMediaComponent';
 import ContactComponent from '@/components/main/ContactComponent';
@@ -53,7 +53,7 @@ export default {
     AboutComponent,
     PortfolioComponent,
     MembershipComponent,
-    CollapseComponent,
+    // CollapseComponent,
     StockComponent,
     SocialMediaComponent,
     ContactComponent,
