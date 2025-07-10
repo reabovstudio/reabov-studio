@@ -379,6 +379,8 @@
     text-align: center;
     font-style: italic;
     font-size: 34px;
+    margin-top: 0;
+    line-height: 1;
 
     @include for-lg {
       font-size: 60px;
@@ -424,6 +426,11 @@
 
 .membership-call {
   text-align: center;
+  padding-top: 100px;
+
+  img {
+    width: 250px;
+  }
 
   h3 {
     color: #fff;

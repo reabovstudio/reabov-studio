@@ -69,19 +69,32 @@
       }
 
       @include for-xl {
-        width: calc(40% - 50px);
-        padding: 50px 0 50px 50px;
+        width: calc(40% - 100px);
+        padding: 50px;
       }
 
-      p {
-        font-size: 12px;
+      h1 {
+        font-size: 70px;
+      }
+      h2 {
+        font-size: 45px;
+
+        @include for-md {
+          font-size: 50px;
+        }
+      }
+      h3 {
+        font-size: 30px;
+      }
+
+      h1, h2, h3 {
+        margin: 0;
         overflow-wrap: break-word;
         color: #fff;
-        margin: 0 0 10px;
+        line-height: 1.1;
         text-align: center;
 
         @include for-sm {
-          font-size: 14px;
           text-align: start;
         }
       }
