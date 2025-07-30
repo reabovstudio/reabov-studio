@@ -39,7 +39,7 @@
               <img src="@/assets/images/stock/patreon.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.patreon.com/reabov">Discover <i class="icon-next"></i></a>
+              <a href="https://www.patreon.com/reabov" target="_blank">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -53,7 +53,7 @@
               <img src="@/assets/images/stock/behance.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.behance.net/reabovstudio">Discover <i class="icon-next"></i></a>
+              <a href="https://www.behance.net/reabovstudio" target="_blank">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
@@ -67,7 +67,7 @@
               <img src="@/assets/images/stock/youtube.svg">
             </div>
             <div class="stock-item-btn">
-              <a href="https://www.youtube.com/@ReabovAlexandru">Discover <i class="icon-next"></i></a>
+              <a href="https://www.youtube.com/@reabovstudio" target="_blank">Discover <i class="icon-next"></i></a>
             </div>
           </div>
         </el-col>
